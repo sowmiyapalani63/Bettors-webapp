@@ -1,0 +1,271 @@
+:root {
+  --main-bg-color: #F1F1F1;
+  --main-text-color: #370061;
+  --second-text-color: #FFFFFF;
+  --third-text-color: #545454;
+  --fourth-text-color: #545454;
+  --fifth-text-color: #0E0E0E;
+  --second-bg-color: #c1efde;
+  --third-bg-color: #F2F2F7;
+  --table-sub-name: #8E8E93;
+  --table-name: #545454;
+
+}
+
+h1, h2, h3, p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  font-family: 'Montserrat' !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  margin: 0px;
+  word-wrap: break-word;
+}
+
+.body-4{
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.bg-siderbar {
+  background-color: #370061;
+}
+
+.bg-secondary {
+  background: var(--third-text-color);
+}
+
+.text-secondary {
+  color: var(--third-text-color);
+}
+.text-ternary{
+  color: var(--fourth-text-color);
+}
+.text-semibold{
+  color: var(--fifth-text-color);
+}
+.primary-text {
+  color: var(--main-text-color);
+}
+.text-brandcolor{
+  color: #370061;
+}
+
+.second-text {
+  color: var(--second-text-color);
+}
+
+.primary-bg {
+  background-color: var(--main-bg-color);
+}
+
+.secondary-bg {
+  background-color: var(--second-bg-color);
+}
+
+.rounded-full {
+  border-radius: 100%;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+
+/* text size */
+.title-1 {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.font-14 {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.font-16{
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.font-18{
+  font-size: 18px;
+  line-height: 150%;
+}
+
+
+/* font weight */
+.fw-normal {
+  font-weight: 400 !important;
+}
+
+.fw-medium {
+  font-weight: 500 !important;
+}
+.table-headding-bg{
+  background-color: var(--third-bg-color);
+}
+.table-sub-name{
+  color: var( --table-sub-name);
+}
+.table-name{
+  color: var( --table-name);
+}
+
+#page-content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper #page-content-wrapper .main-bg-color {
+  background-color: var(--main-bg-color);
+  height: 100vh;
+  flex-grow: 1;
+}
+
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.p-32 {
+  padding: 32px;
+}
+
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.py-40{
+  padding: 40px 0px;
+}
+.border-radius-8 {
+  border-radius: 8px;
+}
+
+.gap-20{
+  gap: 20px;
+}
+.gap-8{
+  gap: 8px;
+}
+.gap-32{
+  gap: 32px;;
+}
+.btn{
+  background-color: #370061;
+  padding: 14px 28px;
+}
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+.list-group-item {
+  border: none;
+  padding: 20px 30px;
+}
+.list-group-item-action:focus{
+   color: white;
+}
+
+.list-group-item-action:hover {
+  background-color: #47146D;
+  border-left: 4px solid white;
+  color: white;
+  transition: none;
+  
+}
+.profile-dropdown{
+  border-left: 1px solid #D1D1D1;
+  padding-left: 12px;
+}
+.profile-dropdown-content{
+  padding: 0px !important;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .dropdown-menu {
+    position: absolute !important;
+  }
+  .px-32 {
+    padding: 20px;
+  }
+  .p-32{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .px-40{
+    padding: 24px;
+  }
+  #wrapper #page-content-wrapper .main-bg-color {
+    height: auto;
+  }
+}
