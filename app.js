@@ -1,18 +1,18 @@
 // First, let's create a JavaScript file to handle the dynamic content loading
 // Save this as app.js in the same directory as your HTML file
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // Get all sidebar menu items
     const menuItems = document.querySelectorAll('.list-group-item-action');
-    
+
     // Store the main content area
     const pageContentArea = document.querySelector('.main-bg-color.container-fluid');
-    
+
     // Create an object to store page content for each menu item
     const pageContents = {
         "Race Matrix": `
             <section class="dashboard w-100 d-flex flex-column gap-32">
-                <div class="border rounded">
+                <div class="border border-radius-8">
                     <div class="py-20 px-40 border-bottom table-headding-bg">
                         <p class="body-2 fw-medium font-18 text-semibold">Race Matrix</p>
                     </div>
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         `,
         "Racing Planner": `
             <section class="dashboard w-100 d-flex flex-column gap-32">
-                <div class="border rounded">
+                <div class="border border-radius-8">
                     <div class="py-20 px-40 border-bottom table-headding-bg">
                         <p class="body-2 fw-medium font-18 text-semibold">Racing Planner</p>
                     </div>
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         `,
         "My Race Picks": `
             <section class="dashboard w-100 d-flex flex-column gap-32">
-                <div class="border rounded">
+                <div class="border border-radius-8">
                     <div class="py-20 px-40 border-bottom table-headding-bg">
                         <p class="body-2 fw-medium font-18 text-semibold">My Race Picks</p>
                     </div>
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
         `,
         "Profile": `
             <section class="dashboard w-100 d-flex flex-column gap-32">
-                <div class="border rounded  ">
+                <div class="border border-radius-8  ">
                     <div class=" py-20 px-40 border-bottom table-headding-bg">
                         <p class="  body-2 fw-medium font-18 text-semibold">My Profile</p>
                     </div>
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                 </div>
-                <div class="border rounded  ">
+                <div class="border border-radius-8  ">
                     <div class=" py-20 px-40 border-bottom table-headding-bg">
                         <p class="  body-2 fw-medium font-18 text-semibold ">Subscription Details </p>
                     </div>
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                 </div>
-                <div class="border rounded  ">
+                <div class="border border-radius-8  ">
                     <div class=" py-20 px-40 border-bottom table-headding-bg">
                         <p class="  body-2 fw-medium font-18 text-semibold">Subscription Details </p>
                     </div>
@@ -152,10 +152,72 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                 </div>
             </section>
-        `
+        `,
+        "Race Radar": `
+        <section class="dashboard w-100 d-flex flex-column gap-32">
+            <div class="border border-radius-8  ">
+                <div class="bg-white px-40 py-40 d-flex flex-column gap-60">
+                    <div class=" d-flex justify-content-center align-items-center ">
+                        <img src="./asssest/image/race-radar-logo.png" alt=" race radar"
+                             class="race-radar-img" />
+                    </div>
+                    <div class="d-flex gap-24 flex-column align-items-center">
+                        <button class=".btn-2 btn text-white btn-width ">Download Chrome Extension</button>
+                           <p class="fw-medium body-4">By downloading, you agree to the <a href="#" class="primary-text text-decoration-none">Application Terms.</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        `,
+        "User Configuration": `
+           <section class="dashboard w-100 d-flex flex-column gap-32 border border-radius-8">
+                <div class="border rounded">
+                    <div class="py-3 px-4 border-bottom table-heading-bg">
+                        <p class="body-2 fw-medium font-18 text-semibold">My Settings</p>
+                    </div>
+                    <div class="bg-white">
+                        <form class="py-4 px-4 d-flex flex-column gap-24">
+                            <div class="d-flex flex-row gap-24 flex-wrap">
+                                <div class="d-flex flex-column flex-fill gap-8">
+                                    <label for="bookieState" class="form-label mb-0">Preferred Bookie State</label>
+                                    <input type="number" class="form-control" id="bookieState" value="0" min="0">
+                                </div>
+                                <div class="d-flex flex-column flex-fill gap-8">
+                                    <label for="betType" class="form-label mb-0">Default Bet Type</label>
+                                    <select class="form-select" id="betType">
+                                        <option selected>Select option</option>
+                                        <option value="1">Single</option>
+                                        <option value="2">Multiple</option>
+                                        <option value="3">System</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap gap-24">
+                                <div class="d-flex flex-column flex-fill gap-8">
+                                    <label for="bankroll" class="form-label mb-0">Bankroll</label>
+                                    <input type="number" class="form-control" id="bankroll" value="0" min="0">
+                                </div>
+                                <div class="d-flex flex-column flex-fill gap-8">
+                                    <label for="bettingPreference" class="form-label mb-0">Betting Preference</label>
+                                    <select class="form-select" id="bettingPreference">
+                                        <option selected>Select option</option>
+                                        <option value="1">Favorites</option>
+                                        <option value="2">Underdogs</option>
+                                        <option value="3">Value bets</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <button type="submit" class="btn btn-primary px-4">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        `,
         // Add more page contents for other menu items as needed
     };
-    
+
     // Function to update breadcrumb
     function updateBreadcrumb(pageName) {
         // Update desktop breadcrumb
@@ -163,14 +225,14 @@ document.addEventListener("DOMContentLoaded", function() {
         if (desktopBreadcrumb) {
             desktopBreadcrumb.textContent = getParentSection(pageName) + " / " + pageName;
         }
-        
+
         // Update mobile breadcrumb
         const mobileBreadcrumb = document.querySelector('.breadcrum-sm');
         if (mobileBreadcrumb) {
             mobileBreadcrumb.textContent = getParentSection(pageName) + " / " + pageName;
         }
     }
-    
+
     // Helper function to determine parent section
     function getParentSection(pageName) {
         // This is a simplified version, you might need to adjust based on your menu structure
@@ -187,24 +249,24 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         return "";
     }
-    
+
     // Add click event listeners to each menu item
     menuItems.forEach(item => {
-        item.addEventListener('click', function(e) {
+        item.addEventListener('click', function (e) {
             e.preventDefault();
-            
+
             // Remove active class from all menu items
             menuItems.forEach(mi => mi.classList.remove('active'));
-            
+
             // Add active class to clicked menu item
             this.classList.add('active');
-            
+
             // Get the page name from the menu item text
             const pageName = this.textContent.trim();
-            
+
             // Update the breadcrumb
             updateBreadcrumb(pageName);
-            
+
             // Update the page content if we have content for this menu item
             if (pageContents[pageName]) {
                 pageContentArea.innerHTML = pageContents[pageName];
@@ -212,7 +274,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // If we don't have specific content, show a placeholder
                 pageContentArea.innerHTML = `
                     <section class="dashboard w-100 d-flex flex-column gap-32">
-                        <div class="border rounded">
+                        <div class="border border-radius-8">
                             <div class="py-20 px-40 border-bottom table-headding-bg">
                                 <p class="body-2 fw-medium font-18 text-semibold">${pageName}</p>
                             </div>

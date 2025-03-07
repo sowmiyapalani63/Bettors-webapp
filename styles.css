@@ -36,7 +36,7 @@ letter-spacing: 0%;
 
 }
 .bg-siderbar {
-  background-color: #370061;
+  background-color: var(--main-text-color);
 }
 
 .bg-secondary {
@@ -56,7 +56,7 @@ letter-spacing: 0%;
   color: var(--main-text-color);
 }
 .text-brandcolor{
-  color: #370061;
+  color: var(--main-text-color);
 }
 
 .second-text {
@@ -71,7 +71,7 @@ letter-spacing: 0%;
   background-color: var(--second-bg-color);
 }
 
-.rounded-full {
+.border-radius-8-full {
   border-radius: 100%;
 }
 
@@ -156,25 +156,52 @@ letter-spacing: 0%;
   padding-left: 40px;
   padding-right: 40px;
 }
+
 .py-40{
-  padding: 40px 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
+
 .border-radius-8 {
   border-radius: 8px;
+  overflow: hidden;
 }
+
+
 
 .gap-20{
   gap: 20px;
 }
+
 .gap-8{
   gap: 8px;
 }
+
 .gap-32{
   gap: 32px;;
 }
+
+.gap-24{
+  gap: 24px;
+}
+
+.gap-60{
+  gap: 60px;
+}
+
 .btn{
-  background-color: #370061;
+  background-color: var(--main-text-color);
   padding: 14px 28px;
+}
+.btn-width{
+  max-width: 294px;
+}
+
+.btn-2{
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+
 }
 
 #wrapper {
@@ -234,6 +261,10 @@ letter-spacing: 0%;
   padding: 0px !important;
 }
 
+.race-radar-img{
+  max-width: 480px;
+}
+
 @media (min-width: 768px) {
   #sidebar-wrapper {
     margin-left: 0;
@@ -267,5 +298,9 @@ letter-spacing: 0%;
   }
   #wrapper #page-content-wrapper .main-bg-color {
     height: auto;
+  }
+
+  .race-radar-img{
+    max-width: 280px;
   }
 }
