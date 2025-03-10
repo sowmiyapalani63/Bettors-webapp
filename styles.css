@@ -9,10 +9,14 @@
   --third-bg-color: #F2F2F7;
   --table-sub-name: #8E8E93;
   --table-name: #545454;
+  --border-color: #D1D1D1;
 
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -24,15 +28,15 @@ body {
   box-sizing: border-box;
 }
 
-p{
+p {
   margin: 0px;
   word-wrap: break-word;
 }
 
-.body-4{
-font-size: 14px;
-line-height: 150%;
-letter-spacing: 0%;
+.body-4 {
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
 
 }
 .bg-siderbar {
@@ -46,16 +50,20 @@ letter-spacing: 0%;
 .text-secondary {
   color: var(--third-text-color);
 }
-.text-ternary{
+
+.text-ternary {
   color: var(--fourth-text-color);
 }
-.text-semibold{
+
+.text-semibold {
   color: var(--fifth-text-color);
 }
+
 .primary-text {
   color: var(--main-text-color);
 }
-.text-brandcolor{
+
+.text-brandcolor {
   color: var(--main-text-color);
 }
 
@@ -69,6 +77,10 @@ letter-spacing: 0%;
 
 .secondary-bg {
   background-color: var(--second-bg-color);
+}
+
+.border-color {
+  border-color: var(--border-color) !important;
 }
 
 .border-radius-8-full {
@@ -91,12 +103,12 @@ letter-spacing: 0%;
   line-height: 150%;
 }
 
-.font-16{
+.font-16 {
   font-size: 16px;
   line-height: 150%;
 }
 
-.font-18{
+.font-18 {
   font-size: 18px;
   line-height: 150%;
 }
@@ -110,14 +122,17 @@ letter-spacing: 0%;
 .fw-medium {
   font-weight: 500 !important;
 }
-.table-headding-bg{
+
+.table-headding-bg {
   background-color: var(--third-bg-color);
 }
-.table-sub-name{
-  color: var( --table-sub-name);
+
+.table-sub-name {
+  color: var(--table-sub-name);
 }
-.table-name{
-  color: var( --table-name);
+
+.table-name {
+  color: var(--table-name);
 }
 
 #page-content-wrapper {
@@ -132,7 +147,9 @@ letter-spacing: 0%;
   flex-grow: 1;
 }
 
-
+.p-16 {
+  padding: 16px;
+}
 .py-20 {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -148,16 +165,17 @@ letter-spacing: 0%;
 }
 
 .px-32 {
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
 }
+
 
 .px-40 {
   padding-left: 40px;
   padding-right: 40px;
 }
 
-.py-40{
+.py-40 {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -167,40 +185,64 @@ letter-spacing: 0%;
   overflow: hidden;
 }
 
+.border-radius-4 {
+  border-style: solid;
+  border-width: 1px !important;
+  border-radius: 4px !important;
+  overflow: hidden;
+}
 
+.gap-16 {
+  gap: 16px;
+}
 
-.gap-20{
+.gap-20 {
   gap: 20px;
 }
 
-.gap-8{
+.gap-8 {
   gap: 8px;
 }
 
-.gap-32{
-  gap: 32px;;
+.gap-32 {
+  gap: 32px;
+  ;
 }
 
-.gap-24{
+.gap-24 {
   gap: 24px;
 }
 
-.gap-60{
+.gap-60 {
   gap: 60px;
 }
 
-.btn{
+.gap-40 {
+  gap: 40px;
+}
+
+.btn {
   background-color: var(--main-text-color);
   padding: 14px 28px;
 }
-.btn-width{
+
+.btn-width {
   max-width: 294px;
 }
 
-.btn-2{
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
+.model-btn-width {
+  min-width: 165px;
+}
+
+.model-btn {
+  background-color: var(--main-text-color);
+  padding: 14px 28px;
+}
+
+.btn-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
 
 }
 
@@ -242,8 +284,9 @@ line-height: 150%;
   border: none;
   padding: 20px 30px;
 }
-.list-group-item-action:focus{
-   color: white;
+
+.list-group-item-action:focus {
+  color: white;
 }
 
 .list-group-item-action:hover {
@@ -251,18 +294,28 @@ line-height: 150%;
   border-left: 4px solid white;
   color: white;
   transition: none;
-  
+
 }
-.profile-dropdown{
+
+.profile-dropdown {
   border-left: 1px solid #D1D1D1;
   padding-left: 12px;
 }
-.profile-dropdown-content{
+
+.profile-dropdown-content {
   padding: 0px !important;
 }
 
-.race-radar-img{
+.race-radar-img {
   max-width: 480px;
+}
+
+.form-group label {
+  color: var(--fifth-text-color);
+}
+
+.form-control {
+  padding: 0.55rem 0.76rem;
 }
 
 @media (min-width: 768px) {
@@ -284,23 +337,38 @@ line-height: 150%;
   .navbar-nav .dropdown-menu {
     position: absolute !important;
   }
+
   .px-32 {
     padding: 20px;
   }
-  .p-32{
+
+  .p-32 {
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .px-40{
+
+  .px-40 {
     padding: 24px;
   }
+
   #wrapper #page-content-wrapper .main-bg-color {
     height: auto;
   }
 
-  .race-radar-img{
+  .race-radar-img {
     max-width: 280px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .changePasswordContent {
+    width: 450px;
+  }
+}
+@media (min-width: 1024px) {
+  .editPasswordContent {
+    min-width: 700px;
   }
 }
