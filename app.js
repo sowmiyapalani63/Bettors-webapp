@@ -23,7 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
             </section>
         `,
         "My Bookie Promo": `
-      <div class="border border-radius-8  ">
+         <section class="dashboard w-100 d-flex flex-column gap-32">
+            <div class="border border-radius-8  ">
                         <div
                             class=" py-20 px-40 border-bottom table-headding-bg d-flex flex-md-row flex-column justify-content-between ">
                             <p class="  body-2 fw-medium font-18 text-semibold">Manage Promo </p>
@@ -222,7 +223,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
                             </div>
                         </div>
-                    </div>`
+                    </div>
+        </section>`
         ,
 
         "Racing Planner": `
