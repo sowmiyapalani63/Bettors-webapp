@@ -96,7 +96,72 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </section>`
         ,
+        "My Notifications":`
+          <section class="dashboard w-100 d-flex flex-column gap-8">
+                    <div class="border rounded  font-14">
+                        <div class=" py-20 px-40 border-bottom table-heading-bg">
+                            <p class="  body-2 fw-medium font-18 text-semibold">My Settings </p>
+                        </div>
+                        <div class="bg-white px-40 py-40 d-flex flex-column gap-20 ">
+                            <div class="py-20 d-flex flex-row flex-wrap justify-content-between gap-20">
+                                <div class="d-flex align-items-center">
+                                    <span class="font-16">Show</span>
+                                    <select class="form-select mx-2 font-14" style="width: auto;">
+                                        <option selected>10</option>
+                                        <option>25</option>
+                                        <option>50</option>
+                                        <option>100</option>
+                                    </select>
+                                    <span class="font-16">entries</span>
+                                </div>
+                                <div class=" text-end">
+                                    <input type="search" placeholder="Search.."
+                                        class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm" />
+                                </div>
+                            </div>
+                            <div class="overflow-x-auto border-radius-8">
+                                <div style="overflow-x: auto;">
+                                    <table class="table border">
+                                        <thead class="bg-siderbar text-white border font-14 fw-medium">
+                                            <tr>
+                                                <th style="width: 5%;">#</th>
+                                                <th style="width: 25%;">Date</th>
+                                                <th style="width: 70%;">Message</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="font-14 fw-medium text-secondary">
+                                            <tr>
+                                                <td>1</td>
+                                                <td>21/10/2024</td>
+                                                <td class="px-16 py-20">Message will be displayed here. Message can be
+                                                    sent here. Message
+                                                    can be sent here</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
 
+                            <p class="mb-0 fon">Showing 1 to 10 of 357 entries</p>
+
+                            <nav class="align-items-center">
+                                <ul class="pagination mb-0  d-flex justify-content-center gap-24 border-0">
+                                    <li class="page-item"><a class="page-link text-brandcolor border-0"
+                                            href="#">Previous</a></li>
+                                    <li class="page-item active "><a
+                                            class="page-link text-white bg-siderbar text-white border-radius-4 "
+                                            href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link text-brandcolor border-0"
+                                            href="#">Next</a></li>
+                                </ul>
+                            </nav>
+
+
+                        </div>
+                    </div>
+
+                </section>
+        `,
         "Racing Planner": `
             <section class="dashboard w-100 d-flex flex-column gap-32">
                 <div class="border border-radius-8">
