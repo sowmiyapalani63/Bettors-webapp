@@ -23,208 +23,78 @@ document.addEventListener("DOMContentLoaded", function () {
             </section>
         `,
         "My Bookie Promo": `
-         <section class="dashboard w-100 d-flex flex-column gap-32">
-            <div class="border border-radius-8  ">
+         <section class="dashboard w-100 d-flex flex-column gap-8">
+                    <div class="border rounded  font-14">
                         <div
                             class=" py-20 px-40 border-bottom table-headding-bg d-flex flex-md-row flex-column justify-content-between ">
                             <p class="  body-2 fw-medium font-18 text-semibold">Manage Promo </p>
                             <div class="d-flex flex-row gap-40 primary-text body-2 fw-medium font-18">
-                                <p class=" ">Add Promo</p>
-                                <p class=" ">Filters</p>
+                                <p class=" ">New Promo</p>
+
                             </div>
                         </div>
-                        <div class="bg-white px-40 ">
-                            <div class="d-flex flex-column gap-16">
-                                <div class="py-32 border-b">
-                                    <div class="d-flex flex-column gap-16">
-                                        <p class="  body-2 fw-medium font-18 text-semibold">User Bookie Promo </p>
+                        <div class="bg-white px-40 py-40 d-flex flex-column gap-20 ">
+                            <div class="py-20 d-flex flex-row flex-wrap justify-content-between gap-20">
+                                <div class="d-flex align-items-center">
+                                    <span class="font-16">Show</span>
+                                    <select class="form-select mx-2 font-14" style="width: auto;">
+                                        <option selected>10</option>
+                                        <option>25</option>
+                                        <option>50</option>
+                                        <option>100</option>
+                                    </select>
+                                    <span class="font-16">entries</span>
+                                </div>
+                                <input type="search" placeholder="Search.."
+                                    class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm" />
+                            </div>
+                            <div class="overflow-x-auto border-radius-8">
+                                <div style="overflow-x: auto;">
+                                    <table class="table border">
+                                        <thead class="bg-siderbar text-white border font-14 fw-medium">
+                                            <tr>
+                                                <th>S No</th>
+                                                <th>Race Date</th>
+                                                <th>Promo Added On</th>
+                                                <th>Status</th>
+                                                <th>Created By</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="font-14 fw-medium text-secondary">
+                                            <tr>
+                                                <td>1</td>
+                                                <td>21/10/2024</td>
+                                                <td>21/10/2024</td>
+                                                <td>Active</td>
+                                                <td></td>
+                                                <td><a href="./mangeBookiePromo.html" class=""><img
+                                                            src="./asssest/image/editicon.svg" alt="" /></a></td>
 
-                                        <div
-                                            class="body-2 fw-medium font-14 fw-medium d-flex flex-md-row flex-column justify-content-between gap-20 flex-wrap ">
-                                            <input type="date" placeholder="dd-mm-yyyy"
-                                                class="border-radius-4 text-secondary filter-input p-12 border-color flex-grow-sm" />
-                                            <input type="search" placeholder="Search.."
-                                                class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm" />
-
-                                        </div>
-
-                                        <div class="">
-                                            <div style="overflow-x: auto;">
-                                                <table class="table border border-radius-8">
-                                                    <thead class="bg-siderbar text-white border font-14 fw-medium">
-                                                        <tr>
-                                                            <th>
-                                                                <div
-                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
-                                                                    <span>#</span><span><img
-                                                                            src="./asssest/image/filterarrow.svg"
-                                                                            alt="filter" /></span>
-                                                                </div>
-                                                            </th>
-                                                            <th>
-                                                                <div
-                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
-                                                                    <span>Bookie</span><span><img
-                                                                            src="./asssest/image/filterarrow.svg"
-                                                                            alt="filter" /></span>
-                                                                </div>
-                                                            </th>
-                                                            <th>
-                                                                <div
-                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
-                                                                    <span>Race Course</span><span><img
-                                                                            src="./asssest/image/filterarrow.svg"
-                                                                            alt="filter" /></span>
-                                                                </div>
-                                                            </th>
-                                                            <th>
-                                                                <div
-                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
-                                                                    <span>Race Number</span><span><img
-                                                                            src="./asssest/image/filterarrow.svg"
-                                                                            alt="filter" /></span>
-                                                                </div>
-                                                            </th>
-                                                            <th>
-                                                                <div
-                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
-                                                                    <span>Promo Category</span><span><img
-                                                                            src="./asssest/image/filterarrow.svg"
-                                                                            alt="filter" /></span>
-                                                                </div>
-                                                            </th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody class="font-14 fw-medium text-secondary">
-                                                        <tr class="text-center">
-                                                            <td colSpan="5" className="text-center text-muted  d-flex align-items-center ">
-                                                                <span>No data available</span>
-                                                                
-                                                            </td>
-                                                        </tr>
-
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
 
-                            <div class="d-flex flex-column gap-16">
-                                <div class="py-32 border-b">
-                                    <div class="d-flex flex-column gap-16">
-                                        <p class="  body-2 fw-medium font-18 text-semibold">Admin Bookie Promo</p>
-                                        <div
-                                            class="body-2 fw-medium font-14 fw-medium d-flex justify-content-start justify-content-lg-end flex-wrap ">
+                            <p class="mb-0 fon">Showing 1 to 10 of 357 entries</p>
 
-                                            <input type="search" placeholder="Search.."
-                                                class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm" />
+                            <nav class="align-items-center">
+                                <ul class="pagination mb-0  d-flex justify-content-center gap-24 border-0">
+                                    <li class="page-item"><a class="page-link text-brandcolor border-0"
+                                            href="#">Previous</a></li>
+                                    <li class="page-item active "><a
+                                            class="page-link text-white bg-siderbar text-white border-radius-4 "
+                                            href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link text-brandcolor border-0"
+                                            href="#">Next</a></li>
+                                </ul>
+                            </nav>
 
-                                        </div>
-                                        <div class=" ">
-                                            <div style="overflow-x: auto;">
-                                                <table class="table border border-radius-8">
-                                                    <thead class="bg-siderbar text-white border font-14 fw-medium">
-                                                        <tr>
-                                                            <th>
-                                                                <div
-                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
-                                                                    <span>#</span><span><img
-                                                                            src="./asssest/image/filterarrow.svg"
-                                                                            alt="filter" /></span>
-                                                                </div>
-                                                            </th>
-                                                            <th>
-                                                                <div
-                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
-                                                                    <span>Bookie</span><span><img
-                                                                            src="./asssest/image/filterarrow.svg"
-                                                                            alt="filter" /></span>
-                                                                </div>
-                                                            </th>
-                                                            <th>
-                                                                <div
-                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
-                                                                    <span>Race Course</span><span><img
-                                                                            src="./asssest/image/filterarrow.svg"
-                                                                            alt="filter" /></span>
-                                                                </div>
-                                                            </th>
-                                                            <th>
-                                                                <div
-                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
-                                                                    <span>Race Number</span><span><img
-                                                                            src="./asssest/image/filterarrow.svg"
-                                                                            alt="filter" /></span>
-                                                                </div>
-                                                            </th>
-                                                            <th>
-                                                                <div
-                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
-                                                                    <span>Promo Category</span><span><img
-                                                                            src="./asssest/image/filterarrow.svg"
-                                                                            alt="filter" /></span>
-                                                                </div>
-                                                            </th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody class="font-14 fw-medium text-secondary">
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td>BetDeluxe</td>
-                                                            <td>Warrnambool</td>
-                                                            <td>R2</td>
-                                                            <td>Promo Category</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td>BetDeluxe</td>
-                                                            <td>Warrnambool</td>
-                                                            <td>R2</td>
-                                                            <td>Promo Category</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td>BetDeluxe</td>
-                                                            <td>Warrnambool</td>
-                                                            <td>R2</td>
-                                                            <td>Promo Category</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td>BetDeluxe</td>
-                                                            <td>Warrnambool</td>
-                                                            <td>R2</td>
-                                                            <td>Promo Category</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td>BetDeluxe</td>
-                                                            <td>Warrnambool</td>
-                                                            <td>R2</td>
-                                                            <td>Promo Category</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td>BetDeluxe</td>
-                                                            <td>Warrnambool</td>
-                                                            <td>R2</td>
-                                                            <td>Promo Category</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                </div>
-
-                            </div>
                         </div>
                     </div>
-        </section>`
+                </section>`
         ,
 
         "Racing Planner": `

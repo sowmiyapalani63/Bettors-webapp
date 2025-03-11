@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bootstap 5 Responsive Admin Dashboard</title>
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="bg-siderbar" id="sidebar-wrapper">
+            <div class="sidebar-heading text-center py-4 primary-text fs-4">
+                <img src="./logo.png" alt="" class="img-fluid m" />
+            </div>
+            <div class="list-group list-group-flush my-3 font-14">
+                <div class="list-group-item bg-transparent second-text font-14 fw-medium active">
+                    DASHBOARD
+                </div>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    Race Matrix
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    Racing Planner
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    My Race Picks
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    My Bet Logbook
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    Promo Mug Ratio
+                </a>
+                <div class="list-group-item text-decoration-none bg-transparent second-text font-14 fw-medium ">
+                    TRANSACTIONS
+                </div>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    Other Bets
+                </a>
+                <div class="list-group-item bg-transparent second-text font-14 fw-medium">
+                    REPORTS
+                </div>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    P / L Analytics
+                </a>
+                <div class="list-group-item  bg-transparent second-text font-14 fw-medium">
+                    UTILITIES
+                </div>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    My Notifications
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    My Bookie Promo
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    Race Radar
+                </a>
+                <div class="list-group-item  bg-transparent second-text font-14 fw-medium">
+                    USER ACCOUNT
+                </div>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    My Bookies
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    User Configuration
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
+                    Profile
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent text-danger font-14 fw-medium">
+                    Logout
+                </a>
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <nav
+                class="navbar-bg-color navbar navbar-expand-lg navbar-light justify-content-between bg-transparent py-24 px-32">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-align-left primary-text fs-4 me-3 " id="menu-toggle"></i>
+                    <span class="d-none d-md-block">User Account / Profile</span>
+                </div>
+
+                <span class="d-flex flex-row  justify-content-center align-items-center gap-2 ">
+                    <div class="text-brandcolor fw-medium ">22:33:12</div>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 profile-dropdown">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  second-text profile-dropdown-content d-flex flex-row align-items-center justify-content-center "
+                                href="#">
+                                <span class="d-none d-md-block fw-normal ">Hi, BB_Test </span> <span
+                                    class="p-2 border-radius-8-full"> <img src="./asssest/image/usericon.png"
+                                        alt="user" /></span> </i>
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+            </nav>
+
+            <div class="breadcrum-sm d-md-none d-block py-24 px-32 primary-bg "> <span class="">User Account /
+                    Profile</span></div>
+
+            <div class="main-bg-color container-fluid p-32">
+                <!-- <section class="dashboard w-100 d-flex flex-column gap-32"> -->
+
+                <!-- <div class="border border-radius-8 ">
+                        <div class=" py-20 px-40 border-bottom table-headding-bg">
+                            <p class="  body-2 fw-medium font-18 text-semibold">My Profile</p>
+                        </div>
+                        <div class="bg-white px-40">
+                            <div
+                                class=" py-20  d-flex  justify-content-between align-items-center border-bottom flex-wrap gap-3">
+                                <div class="d-flex gap-20">
+                                    <div>
+                                        <img src="./asssest/image/profile.png" alt=" user" class="image w-100">
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center gap-8 font-18  fw-medium">
+                                        <p class="text-secondary">SUNDARRAJAN</p>
+                                        <p class="text-ternary">Australia, NSW</p>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex gap-20 flex-column flex-md-row fw-medium font-14">
+                                    <button class="body-4 btn text-white " data-bs-toggle="modal"
+                                        data-bs-target="#changePasswordModal">Update Password</button>
+                                    <button class="body-4 btn text-white " data-bs-toggle="modal"
+                                        data-bs-target="#EditProfileModal">Edit Profile</button>
+                                </div>
+
+                            </div>
+                            <div class="row py-40 g-5  font-16 fw-medium">
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">First Name</p>
+                                    <p class="table-name text-secondary">SUNDARRAJAN</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Last Name</p>
+                                    <p class="table-name text-secondary">SUNDARAKATTI</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Email ID</p>
+                                    <p mailto:class="table-name text-secondary">revathisyd@gmail.com</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Mobile</p>
+                                    <p class="table-name text-secondary">0421443969</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Address</p>
+                                    <p class="table-name text-secondary">Australia, NSW</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border border-radius-8  ">
+                        <div class=" py-20 px-40 border-bottom table-headding-bg">
+                            <p class="  body-2 fw-medium font-18 text-semibold ">Subscription Details </p>
+                        </div>
+                        <div class="bg-white px-40">
+                            <div class=" d-flex justify-content-between align-items-center ">
+                            </div>
+                            <div class="row py-40 g-5  font-16 fw-medium ">
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Subscription Type</p>
+                                    <p class="table-name text-secondary">BETTERBETTORS BASIC</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Expiry Date</p>
+                                    <p class="table-name text-secondary">31 DEC, 2024</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Days Remaining</p>
+                                    <p class="table-name text-secondary">74</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> -->
+
+                <!-- my bookie promo  -->
+                <section class="dashboard w-100 d-flex flex-column gap-8">
+
+
+                    <div class="border border-radius-8  ">
+                        <div
+                            class=" py-20 px-40 border-bottom table-headding-bg d-flex flex-md-row flex-column justify-content-between ">
+                            <p class="  body-2 fw-medium font-18 text-semibold">Manage Promo </p>
+                            <div class="d-flex flex-row gap-40 primary-text body-2 fw-medium font-18">
+                                <p class=" ">Add Promo</p>
+                                <a href="" class=" text-decoration-none primary-text" data-bs-toggle="modal"
+                                    data-bs-target="#FilterProfileModal">Filters</a>
+                            </div>
+                        </div>
+                        <div class="bg-white px-40 ">
+                            <div class="d-flex flex-column gap-16">
+                                <div class="py-32">
+                                    <div class="d-flex flex-column gap-16">
+                                        <p class="  body-2 fw-medium font-18 text-semibold">User Bookie Promo </p>
+
+                                        <div
+                                            class="body-2 fw-medium font-14 fw-medium d-flex flex-md-row flex-column justify-content-between gap-20 flex-wrap ">
+                                            <input type="date" placeholder="dd-mm-yyyy"
+                                                class="border-radius-4 text-secondary filter-input p-12 border-color flex-grow-sm" />
+                                            <input type="search" placeholder="Search.."
+                                                class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm" />
+
+                                        </div>
+
+                                        <div class="overflow-x-auto border-radius-8">
+                                            <div style="overflow-x: auto;">
+                                                <table class="table border">
+                                                    <thead class="bg-siderbar text-white border font-14 fw-medium">
+                                                        <tr>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>#</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Bookie</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Race Course</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Race Number</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Promo Category</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Promo Type</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Comments</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Action</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="font-14 fw-medium text-secondary">
+                                                        <tr class="text-center ">
+                                                            <td colSpan="8"
+                                                                className="text-center text-muted  d-flex align-items-center ">
+                                                                <span>No data available</span>
+
+                                                            </td>
+                                                        </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column gap-16">
+                                <div class="py-32">
+                                    <div class="d-flex flex-column gap-16">
+                                        <p class="  body-2 fw-medium font-18 text-semibold">Admin Bookie Promo</p>
+                                        <div
+                                            class="body-2 fw-medium font-14 fw-medium d-flex justify-content-start justify-content-lg-end flex-wrap ">
+
+                                            <input type="search" placeholder="Search.."
+                                                class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm" />
+
+                                        </div>
+                                        <div class="overflow-x-auto border-radius-8">
+                                            <div style="overflow-x: auto;">
+                                                <table class="table border">
+                                                    <thead class="bg-siderbar text-white border font-14 fw-medium">
+                                                        <tr>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>#</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Bookie</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Race Course</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Race Number</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Promo Category</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Promo Type</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Comments</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                            <th>
+                                                                <div
+                                                                    class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                    <span>Action</span><span><img
+                                                                            src="./asssest/image/filterarrow.svg"
+                                                                            alt="filter" /></span>
+                                                                </div>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="font-14 fw-medium text-secondary">
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>BetDeluxe</td>
+                                                            <td>Warrnambool</td>
+                                                            <td>R2</td>
+                                                            <td>Promo Category</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>BetDeluxe</td>
+                                                            <td>Warrnambool</td>
+                                                            <td>R2</td>
+                                                            <td>Promo Category</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>BetDeluxe</td>
+                                                            <td>Warrnambool</td>
+                                                            <td>R2</td>
+                                                            <td>Promo Category</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>BetDeluxe</td>
+                                                            <td>Warrnambool</td>
+                                                            <td>R2</td>
+                                                            <td>Promo Category</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>BetDeluxe</td>
+                                                            <td>Warrnambool</td>
+                                                            <td>R2</td>
+                                                            <td>Promo Category</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>BetDeluxe</td>
+                                                            <td>Warrnambool</td>
+                                                            <td>R2</td>
+                                                            <td>Promo Category</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="modal fade" id="changePasswordModal" tabindex="-1" aria-labelledby="changePasswordLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content px-40  py-40 gap-40 border-radius-8 changePasswordContent">
+                        <div class="d-flex flex-row justify-content-between align-items-center">
+                            <h3 class="modal-title font-16 fw-medium text-semibold" id="changePasswordLabel ">Change
+                                Password</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body gap-20 d-flex flex-column gap-20 font-14  fw-medium p-0">
+                            <!-- Form Fields -->
+                            <div class="form-group">
+                                <label for="currentPassword"
+                                    class="form-label gap-8 d-flex flex-row align-items-center">Current Password<span
+                                        class="text-danger">*</span></label>
+                                <input type="password" class="form-control border-radius-8 " id="currentPassword"
+                                    placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="newPassword" class="form-label gap-8 d-flex flex-row align-items-center">New
+                                    Password<span class="text-danger">*</span></label>
+                                <input type="password" class="form-control border-radius-8 " id="newPassword"
+                                    placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmPassword"
+                                    class="form-label gap-8 d-flex flex-row align-items-center">Confirm Password<span
+                                        class="text-danger">*</span></label>
+                                <input type="password" class="form-control border-radius-8 " id="confirmPassword"
+                                    placeholder="">
+                            </div>
+                        </div>
+                        <div class="d-flex gap-16 flex-column flex-md-row fw-medium font-14 justify-content-between">
+                            <button
+                                class="body-4  model-btn-width bg-white text-secondary border-radius-4 border-color text-decoration-none"
+                                data-bs-dismiss="modal">Cancel</button>
+                            <button class="body-4 model-btn-width model-btn text-white border-radius-4">Change
+                                Password</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="EditProfileModal" tabindex="-1" aria-labelledby="EditProfileLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content px-40  py-40 gap-40 border-radius-8 editPasswordContent ">
+                        <div class="d-flex flex-row justify-content-between align-items-center">
+                            <h3 class="modal-title font-16  fw-medium text-semibold" id="EditProfileLabel ">Edit User
+                                Contact</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body gap-20 d-flex flex-column gap-20 font-14  fw-medium p-0">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email ID</label>
+                                <input type="email" class="form-control border-radius-8" id="email"
+                                    value="revathisyd@gmail.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="mobile" class="form-label">Mobile</label>
+                                <input type="text" class="form-control border-radius-8" id="mobile" value="0421443979">
+                            </div>
+                            <div class="form-group">
+                                <label for="address1" class="form-label">Address Line 1</label>
+                                <input type="text" class="form-control border-radius-8" id="address1">
+                            </div>
+                            <div class="form-group">
+                                <label for="address2" class="form-label">Address Line 2</label>
+                                <input type="text" class="form-control border-radius-8" id="address2">
+                            </div>
+                            <div class="form-group">
+                                <label for="suburb" class="form-label">Suburb</label>
+                                <input type="text" class="form-control border-radius-8" id="suburb">
+                            </div>
+                            <div class="form-group">
+                                <label for="state" class="form-label">State/Territory</label>
+                                <input type="text" class="form-control border-radius-8" id="state">
+                            </div>
+                            <div class="form-group">
+                                <label for="postalCode" class="form-label">Postal Code</label>
+                                <input type="text" class="form-control border-radius-8" id="postalCode">
+                            </div>
+                            <div class="form-group">
+                                <label for="country" class="form-label">Country</label>
+                                <select class="form-select" id="country">
+                                    <option>Select option</option>
+                                    <option>Australia</option>
+                                    <option>United States</option>
+                                    <option>India</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-20 flex-column flex-md-row fw-medium font-14 justify-content-between">
+                            <button
+                                class="body-4  model-btn-width bg-white text-secondary border-radius-4 border-color text-decoration-none"
+                                data-bs-dismiss="modal">Cancel</button>
+                            <button class="body-4  model-btn-width model-btn text-white border-radius-4">Update
+                                Contact</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="FilterProfileModal" tabindex="-1" aria-labelledby="FilterProfileLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content px-40  py-40 gap-40 border-radius-8 FilterPasswordContent ">
+                        <div class="d-flex flex-row justify-content-between align-items-center">
+                            <h3 class="modal-title font-16  fw-medium text-semibold" id="FilterProfileLabel ">Add
+                                Filters</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body gap-20 d-flex flex-column gap-20 font-14  fw-medium p-0">
+
+                            <div class="form-group">
+                                <label for="promotypes" class="form-label">Promo Types</label>
+                                <select class="form-select" id="promotypes">
+                                    <option>--ALL--</option>
+                                    <option>Run 2nd and 3rd</option>
+                                    <option>Run 2nd</option>
+                                    <option>Run 2nd($5)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="bookie" class="form-label">Bookie</label>
+                                <select class="form-select" id="bookie">
+                                    <option>--ALL--</option>
+                                    <option>SportsBet</option>
+                                    <option>ChaseBet</option>
+                                    <option>BetM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-20 flex-column flex-md-row fw-medium font-14 justify-content-between">
+                            <button
+                                class="body-4  model-btn-width bg-white text-secondary border-radius-4 border-color text-decoration-none"
+                                data-bs-dismiss="modal">Reset</button>
+                            <button class="body-4  model-btn-width model-btn text-white border-radius-4">Apply
+                                Filters</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var el = document.getElementById("wrapper");
+        var toggleButton = document.getElementById("menu-toggle");
+
+        toggleButton.onclick = function () {
+            el.classList.toggle("toggled");
+        };
+    </script>
+    <!-- Add this line to include the dynamic content loading script -->
+    <script src="app.js"></script>
+</body>
+
+</html>

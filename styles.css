@@ -325,7 +325,17 @@ table{
   min-width: 1000px;
   min-height: 114px;
 }
-
+.page-item.active .page-link {
+  background-color: var(--main-text-color);
+  border-color: var(--main-text-color);
+}
+a:hover {
+  color: inherit;
+}
+.page-link:hover {
+  color: inherit;
+  background: inherit;
+}
 @media (min-width: 768px) {
   #sidebar-wrapper {
     margin-left: 0;
