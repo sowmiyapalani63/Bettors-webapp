@@ -4,7 +4,7 @@
   --second-text-color: #FFFFFF;
   --third-text-color: #545454;
   --fourth-text-color: #545454;
-  --fifth-text-color: #0E0E0E;
+  --bold-text-color: #0E0E0E;
   --second-bg-color: #c1efde;
   --third-bg-color: #F2F2F7;
   --table-sub-name: #8E8E93;
@@ -56,7 +56,7 @@ p {
 }
 
 .text-semibold {
-  color: var(--fifth-text-color);
+  color: var(--bold-text-color);
 }
 
 .primary-text {
@@ -93,11 +93,6 @@ p {
 
 
 /* text size */
-.title-1 {
-  font-size: 14px;
-  line-height: 150%;
-}
-
 .font-14 {
   font-size: 14px;
   line-height: 150%;
@@ -116,11 +111,11 @@ p {
 
 /* font weight */
 .fw-normal {
-  font-weight: 400 !important;
+  font-weight: 400 ;
 }
 
 .fw-medium {
-  font-weight: 500 !important;
+  font-weight: 500 ;
 }
 
 .table-headding-bg {
@@ -146,7 +141,9 @@ p {
   height: 100vh;
   flex-grow: 1;
 }
-
+.p-12{
+  padding: 12px;
+}
 .p-16 {
   padding: 16px;
 }
@@ -168,8 +165,10 @@ p {
   padding-left: 32px !important;
   padding-right: 32px !important;
 }
-
-
+.py-32 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
 .px-40 {
   padding-left: 40px;
   padding-right: 40px;
@@ -179,7 +178,9 @@ p {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
+.border-b{
+  border-bottom: 1px solid var(--border-color);
+}
 .border-radius-8 {
   border-radius: 8px;
   overflow: hidden;
@@ -311,11 +312,18 @@ p {
 }
 
 .form-group label {
-  color: var(--fifth-text-color);
+  color: var(--bold-text-color);
 }
 
 .form-control {
   padding: 0.55rem 0.76rem;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(29%) sepia(0%) saturate(0%) hue-rotate(0deg);
+}
+table{
+  min-width: 1000px;
+  min-height: 114px;
 }
 
 @media (min-width: 768px) {
@@ -360,11 +368,18 @@ p {
   .race-radar-img {
     max-width: 280px;
   }
+  .flex-grow-sm{
+    flex-grow: 1;
+  }
 }
 
 @media (min-width: 1024px) {
   .changePasswordContent {
     width: 450px;
+  }
+  .filter-input{
+    width: 300px;
+    
   }
 }
 @media (min-width: 1024px) {
