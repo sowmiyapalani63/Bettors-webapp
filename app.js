@@ -96,6 +96,167 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </section>`
         ,
+        "My Bookies": `
+          <section class="dashboard w-100 d-flex flex-column gap-8">
+                    <div class="border rounded  font-14">
+                        <div
+                            class=" py-20 px-40 border-bottom table-headding-bg d-flex flex-md-row flex-column justify-content-between ">
+                            <p class="  body-2 fw-medium font-18 text-semibold">My Bookies </p>
+
+                        </div>
+                        <div class="bg-white px-40 py-40 d-flex flex-column gap-20 fw-medium">
+                            <div class="py-20 d-flex flex-column flex-md-row flex-wrap justify-content-between gap-20">
+                                <input type="search" placeholder="Search.."
+                                    class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-md" />
+                                <div class="d-flex gap-20 flex-column flex-md-row fw-medium font-14">
+                                    <button class="body-4 btn text-white ">Save</button>
+                                    <button
+                                        class="body-4 btn bg-white border-radius-4 border-color-primary ">Add</button>
+                                </div>
+                            </div>
+                            <div class="py-24 px-18 px-18  border-color border-radius-8 border  d-flex flex-column gap-20">
+                                <form class="form-grid">
+                                    <div>
+                                        <label class="form-label text-semibold">Select Bookies</label>
+                                        <select class="form-select">
+                                            <option selected>Select option</option>
+                                            <option>Bookie 1</option>
+                                            <option>Bookie 2</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div>
+                                        <label class="form-label text-semibold">Already have Account?</label>
+                                        <select class="form-select">
+                                            <option selected>Select option</option>
+                                            <option>Yes</option>
+                                            <option>No</option>
+                                        </select>
+                                    </div>
+
+                                    <div>
+                                        <label class="form-label text-semibold">Account Open On</label>
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                    <div>
+                                        <label class="form-label text-semibold">Gubbed/Promo banned</label>
+                                        <select class="form-select">
+                                            <option selected>Select option</option>
+                                            <option>Yes</option>
+                                            <option>No</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div>
+                                        <label class="form-label text-semibold">Banned On</label>
+                                        <input type="date" class="form-control" disabled>
+                                    </div>
+
+                                    <div>
+                                        <label class="form-label text-semibold">Days Active</label>
+                                        <input type="text" class="form-control border-0 " value="0 Days">
+                                    </div>
+
+
+                                    <div>
+                                        <label class="form-label text-semibold">Promo Vs Mug Ratio</label>
+                                        <div class="d-flex align-items-center">
+                                            <input type="number" class="form-control me-2" value="2">
+                                            <span>:</span>
+                                            <input type="number" class="form-control ms-2" value="1">
+                                        </div>
+                                    </div>
+
+                                    <div class="full-width span-2">
+                                        <label class="form-label text-semibold">Cause of Gub / Promo Banned (if
+                                            known)</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </form>
+                                <div>
+                                    <a href="#"
+                                        class="d-flex flex-row align-items-baseline gap-8 text-danger text-decoration-none fw-medium"><img
+                                            src="./asssest/image/deleteicon.svg" alt="" /><span>Delete</span></a>
+                                </div>
+                            </div>
+                            <div class="py-24 px-18 px-18  border-color border-radius-8 border  d-flex flex-column gap-20">
+                                <form class="form-grid">
+                                    <div>
+                                        <label class="form-label text-semibold">Select Bookies</label>
+                                        <select class="form-select">
+                                            <option selected>Select option</option>
+                                            <option>Bookie 1</option>
+                                            <option>Bookie 2</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div>
+                                        <label class="form-label text-semibold">Already have Account?</label>
+                                        <select class="form-select">
+                                            <option selected>Select option</option>
+                                            <option>Yes</option>
+                                            <option>No</option>
+                                        </select>
+                                    </div>
+
+                                    <div>
+                                        <label class="form-label text-semibold">Account Open On</label>
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                    <div>
+                                        <label class="form-label text-semibold">Gubbed/Promo banned</label>
+                                        <select class="form-select">
+                                            <option selected>Select option</option>
+                                            <option>Yes</option>
+                                            <option>No</option>
+                                        </select>
+                                    </div>
+
+
+                                    <div>
+                                        <label class="form-label text-semibold">Banned On</label>
+                                        <input type="date" class="form-control" disabled>
+                                    </div>
+
+                                    <div>
+                                        <label class="form-label text-semibold">Days Active</label>
+                                        <input type="text" class="form-control border-0 " value="0 Days">
+                                    </div>
+
+
+                                    <div>
+                                        <label class="form-label text-semibold">Promo Vs Mug Ratio</label>
+                                        <div class="d-flex align-items-center">
+                                            <input type="number" class="form-control me-2" value="2">
+                                            <span>:</span>
+                                            <input type="number" class="form-control ms-2" value="1">
+                                        </div>
+                                    </div>
+
+                                    <div class="full-width span-2">
+                                        <label class="form-label text-semibold">Cause of Gub / Promo Banned (if
+                                            known)</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </form>
+                                <div>
+                                    <a href="#"
+                                        class="d-flex flex-row align-items-baseline gap-8 text-danger text-decoration-none fw-medium"><img
+                                            src="./asssest/image/deleteicon.svg" alt="" /><span>Delete</span></a>
+                                </div>
+                            </div>
+
+                            
+                           
+                        </div>
+                    </div>
+                </section>
+        `,
         "My Notifications":`
           <section class="dashboard w-100 d-flex flex-column gap-8">
                     <div class="border rounded  font-14">

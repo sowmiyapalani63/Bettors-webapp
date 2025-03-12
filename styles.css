@@ -10,6 +10,7 @@
   --table-sub-name: #8E8E93;
   --table-name: #545454;
   --border-color: #D1D1D1;
+  --text-danger:#E52424;
 
 }
 
@@ -78,9 +79,14 @@ p {
 .secondary-bg {
   background-color: var(--second-bg-color);
 }
-
+.border-color-primary {
+  border-color: var(--main-text-color) ;
+}
 .border-color {
   border-color: var(--border-color) !important;
+}
+.text-danger{
+  color: var(--text-danger);
 }
 
 .border-radius-8-full {
@@ -156,7 +162,10 @@ p {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-
+.px-18 {
+  padding-left: 18px ;
+  padding-right: 18px ;
+}
 .p-32 {
   padding: 32px;
 }
@@ -315,8 +324,14 @@ p {
   color: var(--bold-text-color);
 }
 
-.form-control {
+.modal .form-control {
   padding: 0.55rem 0.76rem;
+}
+.form-grid .form-control {
+  padding: 0.85rem 0.76rem;
+}
+.form-grid .form-select {
+  padding: 0.85rem 0.76rem;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(29%) sepia(0%) saturate(0%) hue-rotate(0deg);
@@ -335,6 +350,15 @@ a:hover {
 .page-link:hover {
   color: inherit;
   background: inherit;
+}
+.form-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 32px;
+}
+
+.span-2 {
+  grid-column: span 2; 
 }
 @media (min-width: 768px) {
   #sidebar-wrapper {
@@ -381,8 +405,13 @@ a:hover {
   .flex-grow-sm{
     flex-grow: 1;
   }
+ 
 }
-
+@media (max-width: 1024px) {
+  .form-grid{
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}
 @media (min-width: 1024px) {
   .changePasswordContent {
     width: 450px;
