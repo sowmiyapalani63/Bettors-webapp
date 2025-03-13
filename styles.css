@@ -99,6 +99,10 @@ p {
 
 
 /* text size */
+.font-12 {
+  font-size: 12px;
+  line-height: 120%;
+}
 .font-14 {
   font-size: 14px;
   line-height: 150%;
@@ -359,6 +363,49 @@ a:hover {
 
 .span-2 {
   grid-column: span 2; 
+}
+.logbook-table th{
+  min-width: 178px;
+}
+#carousel-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+#carousel-container .d-flex {
+  flex-shrink: 0;
+  width: 133px; 
+}
+
+#carousel-container .d-flex:first-child .card-carousel-bg {
+  background-color: var(--main-text-color);
+  color: var(--second-text-color);
+}
+
+.image {
+  cursor: pointer;
+}
+
+.card-carousel-bg {
+  background-color: #f0f0f0; 
+  transition: background-color 0.3s ease; 
+}
+.card-carousel-bg {
+  color: var(--main-text-color);
+  background: var(--second-text-color);
+  min-width: 136px;
+  min-height: 76px;
+}
+/* .carousal-container{
+  min-width: 968px;
+  min-height: 64px;
+} */
+.w-48{
+  min-width: 48px ;
+}
+.h-30 {
+  height: 30%;
 }
 @media (min-width: 768px) {
   #sidebar-wrapper {

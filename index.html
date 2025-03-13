@@ -335,6 +335,40 @@
         toggleButton.onclick = function () {
             el.classList.toggle("toggled");
         };
+
+        document.getElementById("prevBtn").addEventListener("click", function () {
+            let container = document.getElementById("carousel-container");
+            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30; // Adjust with the gap between items
+            container.scrollBy({
+                left: -cardWidth, // Scroll left by the width of one card
+                behavior: "smooth"
+            });
+            updateCardBackground(container);
+        });
+
+        document.getElementById("nextBtn").addEventListener("click", function () {
+            let container = document.getElementById("carousel-container");
+            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30; // Adjust with the gap between items
+            container.scrollBy({
+                left: cardWidth, // Scroll right by the width of one card
+                behavior: "smooth"
+            });
+            updateCardBackground(container);
+        });
+
+        // Function to update the background of the first visible card
+        function updateCardBackground(container) {
+            let cards = container.querySelectorAll('.d-flex');
+            let firstVisibleCardIndex = Math.floor(container.scrollLeft / (cards[0].offsetWidth + 30)); // Get the index of the first visible card
+            cards.forEach(card => {
+                card.querySelector('.card-carousel-bg').style.backgroundColor = ''; // Reset all backgrounds
+            });
+            let firstVisibleCard = cards[firstVisibleCardIndex];
+            if (firstVisibleCard) {
+                firstVisibleCard.querySelector('.card-carousel-bg').style.backgroundColor = 'purple'; // Set the background of the first visible card to purple
+            }
+        }
+
     </script>
     <!-- Add this line to include the dynamic content loading script -->
     <script src="app.js"></script>

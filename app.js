@@ -22,6 +22,1077 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
             </section>
         `,
+        "My Bet Logbook":`
+         <section class="dashboard w-100 d-flex flex-column gap-8">
+
+
+                    <div class="border border-radius-8  ">
+                        <div
+                            class=" py-20 px-40 border-bottom table-headding-bg d-flex flex-md-row flex-column justify-content-between ">
+                            <p class="  body-2 fw-medium font-18 text-semibold">My Bet Summary </p>
+
+                        </div>
+                        <div class="bg-white px-40 ">
+                            <div class="py-32">
+                                <div class=" d-flex flex-column gap-40">
+                                    <div class="d-flex flex-row gap-8 font-12">
+                                        <div
+                                            class="w-48  bg-white d-flex flex-column justify-content-center border border-radius-4">
+                                            <img src="./asssest/image/previousarrow.svg" alt="user"
+                                                class="image img-fluid h-30" id="prevBtn">
+                                        </div>
+                                        <div id="carousel-container"
+                                            class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll">
+                                            <!-- Your cards go here -->
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- More cards ... -->
+                                        </div>
+                                        <div
+                                            class="w-48 bg-white d-flex flex-column justify-content-center border border-radius-4 ">
+                                            <img src="./asssest/image/nextarrow.svg" alt="user" class="image h-30   "
+                                                id="nextBtn">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-column gap-16">
+                                        <div class="py-32">
+                                            <div class="d-flex flex-column gap-16">
+
+                                                <div
+                                                    class="body-2 fw-medium font-14 fw-medium d-flex flex-lg-row flex-column justify-content-between gap-20 flex-wrap ">
+                                                    <p class="  body-2 fw-medium font-18 text-semibold">Planned </p>
+                                                    <input type="search" placeholder="Search.."
+                                                        class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm" />
+
+                                                </div>
+
+                                                <div class="overflow-x-auto border-radius-8">
+                                                    <div style="overflow-x: auto;">
+                                                        <table class="table border logbook-table">
+                                                            <thead
+                                                                class="bg-siderbar text-white border font-14 fw-medium">
+                                                                <tr>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>#</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Date</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Course</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Number</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Time</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Time diff.</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Smart AI</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Total Horses</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bookies</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Back/Lay</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bet Planned On</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Runner</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Odds</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Stake</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Returns (Excl.Stake)</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Qualifying Loss</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Run Position</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bonus Triggered?</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Cash Profit/Loss</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Total Profit/Loss
+                                                                                Est.</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Comments</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Action</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody class="font-14 fw-medium text-secondary">
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    <td></td>
+                                                                    <td colSpan="1"
+                                                                        class="text-center body-2 fw-medium font-18 text-semibold  ">
+                                                                        <span>Total</span>
+                                                                    </td>
+                                                                </tr>
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column gap-16">
+                                        <div class="py-32">
+                                            <div class="d-flex flex-column gap-16">
+
+                                                <div
+                                                    class="body-2 fw-medium font-14 fw-medium d-flex flex-lg-row flex-column justify-content-between gap-20 flex-wrap ">
+                                                    <p class="  body-2 fw-medium font-18 text-semibold">Actual
+                                                    </p>
+                                                    <input type="search" placeholder="Search.."
+                                                        class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm" />
+
+                                                </div>
+                                                <div class="overflow-x-auto border-radius-8">
+                                                    <div style="overflow-x: auto;">
+                                                        <table class="table border logbook-table">
+                                                            <thead
+                                                                class="bg-siderbar text-white border font-14 fw-medium">
+                                                                <tr>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>#</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Date</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Course</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Number</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Time</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Time diff.</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Smart AI</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Total Horses</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bookies</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Back/Lay</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bet Planned
+                                                                                On</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Runner</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Odds</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Stake</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Returns
+                                                                                (Excl.Stake)</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Qualifying
+                                                                                Loss</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Run Position</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bonus
+                                                                                Triggered?</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Cash
+                                                                                Profit/Loss</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Total Profit/Loss
+                                                                                Est.</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Comments</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Action</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody class="font-14 fw-medium text-secondary">
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    <td></td>
+                                                                    <td colSpan="1"
+                                                                        class="text-center body-2 fw-medium font-18 text-semibold  ">
+                                                                        <span>Total</span>
+                                                                    </td>
+                                                                </tr>
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="d-flex flex-column gap-16">
+                                        <div class="py-32">
+                                            <div class="d-flex flex-column gap-16">
+
+                                                <div
+                                                    class="body-2 fw-medium font-14 fw-medium d-flex flex-lg-row flex-column justify-content-between gap-20 flex-wrap ">
+                                                    <p class="  body-2 fw-medium font-18 text-semibold">
+                                                        Scratched</p>
+                                                    <input type="search" placeholder="Search.."
+                                                        class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm" />
+
+                                                </div>
+                                                <div class="overflow-x-auto border-radius-8">
+                                                    <div style="overflow-x: auto;">
+                                                        <table class="table border logbook-table">
+                                                            <thead
+                                                                class="bg-siderbar text-white border font-14 fw-medium">
+                                                                <tr>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>#</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Date</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Course</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Number</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Race Time</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Time diff.</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Smart AI</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Total Horses</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bookies</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Back/Lay</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bet Planned
+                                                                                On</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Runner</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Odds</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Stake</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Returns
+                                                                                (Excl.Stake)</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Qualifying
+                                                                                Loss</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Run Position</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bonus
+                                                                                Triggered?</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Cash
+                                                                                Profit/Loss</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Total Profit/Loss
+                                                                                Est.</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Comments</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Action</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody class="font-14 fw-medium text-secondary">
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center ">
+                                                                    <td>1</td>
+                                                                    <td>26/10/2024</td>
+                                                                    <td>Ascot</td>
+                                                                    <td>R1</td>
+                                                                    <td>15:29</td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    <td></td>
+                                                                    <td colSpan="1"
+                                                                        class="text-center body-2 fw-medium font-18 text-semibold  ">
+                                                                        <span>Total</span>
+                                                                    </td>
+                                                                </tr>
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+        `,
         "My Bookie Promo": `
          <section class="dashboard w-100 d-flex flex-column gap-8">
                     <div class="border rounded  font-14">
