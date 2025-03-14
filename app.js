@@ -22,6 +22,294 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
             </section>
         `,
+        "P / L Analytics":`
+       
+                <div class="d-flex flex-column gap-40">
+                    <div class=" d-flex flex-column gap-10">
+                        <div>
+                            <select class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm">
+                                <option value="">Select option</option>
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                            </select>
+                        </div>
+                        <div class="d-flex flex-row gap-8 font-12">
+                            <div
+                                class="w-48 h-30  bg-white d-flex flex-column justify-content-center border border-radius-4">
+                                <img src="./asssest/image/previousarrow.svg" alt="user" class="image img-fluid h-20"
+                                    id="prevBtn">
+                            </div>
+                            <div id="carousel-container"
+                                class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll">
+
+                                <!-- Your cards go here -->
+                                <div class="d-flex flex-column gap-16">
+
+                                    <div class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                        <div>
+                                            21-Oct-2024
+                                        </div>
+                                        <div>
+                                            Monday
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column gap-16">
+                                    <div class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                        <div>
+                                            21-Oct-2024
+                                        </div>
+                                        <div>
+                                            Monday
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column gap-16">
+                                    <div class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                        <div>
+                                            21-Oct-2024
+                                        </div>
+                                        <div>
+                                            Monday
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column gap-16">
+                                    <div class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                        <div>
+                                            21-Oct-2024
+                                        </div>
+                                        <div>
+                                            Monday
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column gap-16">
+                                    <div class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                        <div>
+                                            21-Oct-2024
+                                        </div>
+                                        <div>
+                                            Monday
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column gap-16">
+                                    <div class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                        <div>
+                                            21-Oct-2024
+                                        </div>
+                                        <div>
+                                            Monday
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column gap-16">
+                                    <div class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                        <div>
+                                            21-Oct-2024
+                                        </div>
+                                        <div>
+                                            Monday
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column gap-16">
+                                    <div class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                        <div>
+                                            21-Oct-2024
+                                        </div>
+                                        <div>
+                                            Monday
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- More cards ... -->
+                            </div>
+                            <div
+                                class="w-48 h-30 bg-white d-flex flex-column justify-content-center border border-radius-4 ">
+                                <img src="./asssest/image/nextarrow.svg" alt="user" class="image h-20   " id="nextBtn">
+                            </div>
+                        </div>
+                    </div>
+                    <section class="dashboard w-100 d-flex flex-column gap-8">
+                        <div class="border border-radius-8  ">
+                            <div class="bg-white px-40 ">
+                                <div class="py-32">
+                                    <div class=" d-flex flex-column gap-40">
+                                        <div class="d-flex flex-column gap-16">
+                                            <div class="py-32">
+                                                <div class="d-flex flex-column gap-16">
+
+                                                    <div
+                                                        class="body-2 fw-medium font-14 fw-medium d-flex flex-lg-row flex-column justify-content-between gap-20 flex-wrap ">
+                                                        <p class="  body-2 fw-medium font-18 text-semibold">Planned </p>
+                                                    </div>
+                                                    <div class="card-container gap-22">
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Planned Bets</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Planned Stake</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Deposit</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Withdrawal</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Refunded Bets</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Refunded Stake</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Bets
+                                                            </div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                In-progress Bets</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div class="py-32">
+                                                <div class="d-flex flex-column gap-16">
+
+                                                    <div
+                                                        class="body-2 fw-medium font-14 fw-medium d-flex flex-lg-row flex-column justify-content-between gap-20 flex-wrap ">
+                                                        <p class="  body-2 fw-medium font-18 text-semibold">Bets </p>
+                                                    </div>
+                                                    <div class="card-container gap-22">
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Played Stakes</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                In-progress Stakes</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Average Stake</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Average Odds</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Winning Bets</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Losing Bets</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Profit / Loss
+                                                            </div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Biggest Profit</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                No.of Bonuses Triggered</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Total Bonus Credited</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                In-progress Bets</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Biggest Odds Won</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                ROI</div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+                                                        <div
+                                                            class="card d-flex flex-column border-radius-8  border-color fw-medium font-14">
+                                                            <div class="title bg-siderbar text-white p-16 text-center">
+                                                                Success Rate
+                                                            </div>
+                                                            <div class="value p-16 text-start text-start">0</div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                    </section>
+                </div>
+
+          
+        `,
         "Other Bets":`
         <section class="dashboard w-100 d-flex flex-column gap-8">
 

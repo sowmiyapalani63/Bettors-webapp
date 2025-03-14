@@ -221,7 +221,9 @@ p {
   border-radius: 4px !important;
   overflow: hidden;
 }
-
+.gap-10 {
+  gap: 16px;
+}
 .gap-16 {
   gap: 16px;
 }
@@ -229,7 +231,9 @@ p {
 .gap-20 {
   gap: 20px;
 }
-
+.gap-22 {
+  gap: 22px;
+}
 .gap-8 {
   gap: 8px;
 }
@@ -496,4 +500,9 @@ a:hover {
   .editPasswordContent {
     min-width: 700px;
   }
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  min-width: 150px;
 }
