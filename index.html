@@ -74,7 +74,8 @@
                 <a href="#" class="list-group-item list-group-item-action bg-transparent second-text">
                     Profile
                 </a>
-                <a href="#" class="list-group-item list-group-item-action bg-transparent text-danger title-1 fw-medium">
+                <a href="#" class="list-group-item list-group-item-action bg-transparent text-danger title-1 fw-medium"
+                    data-bs-toggle="modal" data-bs-target="#LogoutModal">
                     Logout
                 </a>
             </div>
@@ -254,11 +255,10 @@
                             <button
                                 class="body-4 model-btn-width bg-white text-secondary border-radius-4 border-color text-decoration-none"
                                 data-bs-dismiss="modal">Cancel</button>
-                            <button
-                                class="body-4  model-btn-width model-btn text-white border-radius-4">Change
+                            <button class="body-4  model-btn-width model-btn text-white border-radius-4">Change
                                 Password</button>
                         </div>
-                    
+
                     </div>
                 </div>
             </div>
@@ -315,11 +315,33 @@
                             <button
                                 class="body-4  model-btn-width bg-white text-secondary border-radius-4 border-color text-decoration-none"
                                 data-bs-dismiss="modal">Cancel</button>
-                            <button
-                                class="body-4 model-btn-width model-btn text-white border-radius-4">Update
+                            <button class="body-4 model-btn-width model-btn text-white border-radius-4">Update
                                 Contact</button>
                         </div>
-                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="LogoutModal" tabindex="-1" aria-labelledby="LogoutLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content px-40  py-40 gap-40 border-radius-8 changePasswordContent ">
+                        <div class="modal-body gap-16 d-flex flex-column p-0 justify-content-center align-items-center">
+                            <img src="./asssest/image/logout.svg" alt="logout" class="d-block d-md-none"/>
+        
+                            <h3 class="modal-title font-22 font-30 text-bold text-semibold" id="LogoutLabel ">Logout
+                            </h3>
+                            <p class="fw-medium font-16 font-sm-14">Are you sure want to log out?</p>
+                        </div>
+                        <div
+                            class="d-flex gap-20 flex-column-reverse flex-md-row fw-medium font-14 fw-medium justify-content-between">
+                            <button
+                                class="body-4  model-btn-width model-btn bg-white text-secondary border-radius-4 border-color text-decoration-none"
+                                data-bs-dismiss="modal">Cancel</button>
+                            <button class="body-4 model-btn-width model-btn text-white border-radius-4">Yes, Log
+                                Out</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -338,9 +360,9 @@
 
         document.getElementById("prevBtn").addEventListener("click", function () {
             let container = document.getElementById("carousel-container");
-            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30; 
+            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
             container.scrollBy({
-                left: -cardWidth, 
+                left: -cardWidth,
                 behavior: "smooth"
             });
             updateCardBackground(container);
@@ -348,9 +370,9 @@
 
         document.getElementById("nextBtn").addEventListener("click", function () {
             let container = document.getElementById("carousel-container");
-            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30; 
+            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
             container.scrollBy({
-                left: cardWidth, 
+                left: cardWidth,
                 behavior: "smooth"
             });
             updateCardBackground(container);
@@ -358,18 +380,18 @@
 
         function updateCardBackground(container) {
             let cards = container.querySelectorAll('.d-flex');
-            let firstVisibleCardIndex = Math.floor(container.scrollLeft / (cards[0].offsetWidth + 30)); 
+            let firstVisibleCardIndex = Math.floor(container.scrollLeft / (cards[0].offsetWidth + 30));
             cards.forEach(card => {
-                card.querySelector('.card-carousel-bg').style.backgroundColor = ''; 
+                card.querySelector('.card-carousel-bg').style.backgroundColor = '';
             });
             let firstVisibleCard = cards[firstVisibleCardIndex];
             if (firstVisibleCard) {
-                firstVisibleCard.querySelector('.card-carousel-bg').style.backgroundColor = 'purple'; 
+                firstVisibleCard.querySelector('.card-carousel-bg').style.backgroundColor = 'purple';
             }
         }
 
     </script>
- 
+
     <script src="app.js"></script>
 </body>
 
