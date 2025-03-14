@@ -22,6 +22,369 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
             </section>
         `,
+        "Other Bets":`
+        <section class="dashboard w-100 d-flex flex-column gap-8">
+
+
+                    <div class="border border-radius-8  ">
+                        <div
+                            class=" py-20 px-40 border-bottom table-headding-bg d-flex flex-md-row flex-column justify-content-between ">
+                            <p class="  body-2 fw-medium font-18 text-semibold">My Bet Summary </p>
+
+                        </div>
+                        <div class="bg-white px-40 ">
+                            <div class="py-32">
+                                <div class=" d-flex flex-column gap-40">
+                                    <div class="d-flex flex-row gap-8 font-12">
+                                        <div
+                                            class="w-48 h-30 bg-white d-flex flex-column justify-content-center border border-radius-4">
+                                            <img src="./asssest/image/previousarrow.svg" alt="user"
+                                                class="image img-fluid h-20" id="prevBtn">
+                                        </div>
+                                        <div id="carousel-container"
+                                            class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll">
+                                            <!-- Your cards go here -->
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column gap-16">
+                                                <div
+                                                    class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                    <div>
+                                                        21-Oct-2024
+                                                    </div>
+                                                    <div>
+                                                        Monday
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- More cards ... -->
+                                        </div>
+                                        <div
+                                            class="w-48 bg-white d-flex flex-column justify-content-center border border-radius-4 h-30">
+                                            <img src="./asssest/image/nextarrow.svg" alt="user" class="image h-20   "
+                                                id="nextBtn">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-column gap-16">
+                                        <div class="py-32">
+                                            <div class="d-flex flex-column gap-16">
+
+                                                <div
+                                                    class="body-2 fw-medium font-14 fw-medium d-flex flex-lg-row flex-column justify-content-between gap-20 flex-wrap ">
+                                                    <p class="  body-2 fw-medium font-18 text-semibold">Planned </p>
+                                                    <input type="search" placeholder="Search.."
+                                                        class="border-radius-4 text-secondary p-12 border-color filter-input flex-grow-sm" />
+
+                                                </div>
+
+                                                <div class="overflow-x-auto border-radius-8">
+                                                    <div style="overflow-x: auto;">
+                                                        <table class="table border logbook-table">
+                                                            <thead
+                                                                class="bg-siderbar text-white border font-14 fw-medium">
+                                                                <tr>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>#</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Date</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bookie</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Bet Type</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Sport</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Event</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Selection</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>BackStack</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>BackOdss</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>LayStake</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>LayOdss</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Result</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>PL Bet</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>PL Daily</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>PL Total</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+
+                                                                    <th>
+                                                                        <div
+                                                                            class="justify-content-between d-flex flex-row flex-no-wrap">
+                                                                            <span>Action</span><span><img
+                                                                                    src="./asssest/image/filterarrow.svg"
+                                                                                    alt="filter" /></span>
+                                                                        </div>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody class="font-14 fw-medium text-secondary">
+                                                                <tr class="text-center text-semibold">
+                                                                    <td>1</td>
+                                                                    <td><input type="date" value=""
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium"></input>
+                                                                    </td>
+
+                                                                    <td>
+                                                                        <select
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium">
+                                                                            <option value="">Select option</option>
+                                                                            <option value="option1">Option 1</option>
+                                                                            <option value="option2">Option 2</option>
+                                                                            <option value="option3">Option 3</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    </td>
+                                                                    <td>
+                                                                        <select
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium">
+                                                                            <option value="">Select option</option>
+                                                                            <option value="option1">Option 1</option>
+                                                                            <option value="option2">Option 2</option>
+                                                                            <option value="option3">Option 3</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <select
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium">
+                                                                            <option value="">Select option</option>
+                                                                            <option value="option1">Option 1</option>
+                                                                            <option value="option2">Option 2</option>
+                                                                            <option value="option3">Option 3</option>
+                                                                        </select>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" value=""
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium"></input>
+                                                                    </td>
+
+                                                                    <td><input type="text" value=""
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium"></input>
+                                                                    </td>
+                                                                    <td><input type="number" value="0"
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium">
+                                                                    </td>
+                                                                    <td><input type="number" value="0"
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium">
+                                                                    </td>
+                                                                    <td><input type="number" value="0"
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium">
+                                                                    </td>
+                                                                    <td><input type="number" value="0"
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium">
+                                                                    </td>
+                                                                    <td><input type="number" value="0"
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium">
+                                                                    </td>
+
+                                                                    <td><select
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium">
+                                                                            <option value="">Select option</option>
+                                                                            <option value="option1">Option 1</option>
+                                                                            <option value="option2">Option 2</option>
+                                                                            <option value="option3">Option 3</option>
+                                                                        </select></td>
+                                                                    <td><input type="number" value="0"
+                                                                            class="border-radius-4 py-8 px-16 border-color fw-medium ">
+                                                                    </td>
+                                                                    <td>
+                                                                    <input type="text" value=""
+                                                                        class="border-radius-4 py-8 px-16 border-color fw-medium"></input>
+                                                                    </td>
+                                                                
+                                                                    <td class=""><img src="./asssest/image/deleteicon.svg" alt=""/></td>
+                                                                </tr>
+
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+        `,
         "My Bet Logbook":`
          <section class="dashboard w-100 d-flex flex-column gap-8">
 
