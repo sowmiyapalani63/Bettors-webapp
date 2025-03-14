@@ -404,8 +404,9 @@ a:hover {
 .w-48{
   min-width: 48px ;
 }
-.h-30 {
-  height: 30%;
+
+.h-20 {
+  max-height: 20%;
 }
 @media (min-width: 768px) {
   #sidebar-wrapper {
@@ -465,7 +466,9 @@ a:hover {
   }
   .filter-input{
     width: 300px;
-    
+  }
+  .h-30 {
+    max-height: 80px;
   }
 }
 @media (min-width: 1024px) {

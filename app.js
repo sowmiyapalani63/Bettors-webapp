@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <div class=" d-flex flex-column gap-40">
                                     <div class="d-flex flex-row gap-8 font-12">
                                         <div
-                                            class="w-48  bg-white d-flex flex-column justify-content-center border border-radius-4">
+                                            class="w-48 h-30  bg-white d-flex flex-column justify-content-center border border-radius-4">
                                             <img src="./asssest/image/previousarrow.svg" alt="user"
-                                                class="image img-fluid h-30" id="prevBtn">
+                                                class="image img-fluid h-20" id="prevBtn">
                                         </div>
                                         <div id="carousel-container"
                                             class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll">
@@ -135,8 +135,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                             <!-- More cards ... -->
                                         </div>
                                         <div
-                                            class="w-48 bg-white d-flex flex-column justify-content-center border border-radius-4 ">
-                                            <img src="./asssest/image/nextarrow.svg" alt="user" class="image h-30   "
+                                            class="w-48 h-30 bg-white d-flex flex-column justify-content-center border border-radius-4 ">
+                                            <img src="./asssest/image/nextarrow.svg" alt="user" class="image h-20   "
                                                 id="nextBtn">
                                         </div>
                                     </div>
