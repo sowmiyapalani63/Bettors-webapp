@@ -164,8 +164,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <div class="bg-white px-40">
                                         <div class="py-32">
                                             <div
-                                                class="d-flex flex-row  border-l fw-medium font-16 radio-wrapper overflow-x-scroll">
-                                                <div class="d-flex flex-column justify-content-between py-48">
+                                                class="d-flex flex-row  fw-medium font-16 radio-wrapper overflow-x-scroll">
+                                                <div class="d-flex flex-column justify-content-between py-48  border-r">
                                                     <p>promo</p>
                                                     <p>Mug </p>
                                                 </div>
@@ -512,7 +512,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <div class="py-32">
                                             <div
                                                 class="d-flex flex-row  border-l fw-medium font-16 radio-wrapper overflow-x-scroll">
-                                                <div class="d-flex flex-column justify-content-between py-48">
+                                                <div class="d-flex flex-column justify-content-between py-48 border-r">
                                                     <p>promo</p>
                                                     <p>Mug </p>
                                                 </div>
@@ -859,7 +859,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <div class="py-32">
                                             <div
                                                 class="d-flex flex-row  border-l fw-medium font-16 radio-wrapper overflow-x-scroll">
-                                                <div class="d-flex flex-column justify-content-between py-48">
+                                                <div class="d-flex flex-column justify-content-between py-48 border-r">
                                                     <p>promo</p>
                                                     <p>Mug </p>
                                                 </div>
