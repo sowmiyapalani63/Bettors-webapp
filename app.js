@@ -12,15 +12,1766 @@ document.addEventListener("DOMContentLoaded", function () {
     const pageContents = {
         "Race Matrix": `
             <section class="dashboard w-100 d-flex flex-column gap-32">
-                <div class="border border-radius-8">
-                    <div class="py-20 px-40 border-bottom table-headding-bg">
-                        <p class="body-2 fw-medium font-18 text-semibold">Race Matrix</p>
+                    <div class=" px-40 ">
+                        <div class="py-32">
+                            <div class=" d-flex flex-column gap-40">
+                                <div class="d-flex flex-row gap-8 font-12">
+                                    <div
+                                        class="w-48 h-30 bg-white d-flex flex-column justify-content-center border border-radius-4">
+                                        <img src="./asssest/image/previousarrow.svg" alt="user"
+                                            class="image img-fluid h-20" id="prevBtn">
+                                    </div>
+                                    <div id="carousel-container"
+                                        class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll">
+                                        <!-- Your cards go here -->
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- More cards ... -->
+                                    </div>
+                                    <div
+                                        class="w-48 bg-white d-flex flex-column justify-content-center border border-radius-4 h-30">
+                                        <img src="./asssest/image/nextarrow.svg" alt="user" class="image h-20   "
+                                            id="nextBtn">
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-md-row flex-column justify-content-between gap-20">
+                                    <div class="d-flex flex-column gap-20">
+                                        <div
+                                            class="d-flex flex-md-row flex-column gap-8 align-items-baseline font-16 text-secondary">
+                                            <span class="fw-normal">Last Updated :</span>
+                                            <span class="fw-medium">21/10/2024 - 10:45:14 AM</span>
+                                        </div>
+                                        <div class="d-flex flex-md-row flex-column gap-8 align-items-baseline font-16 ">
+                                            <span class="fw-normal text-secondary">Race Date :</span>
+                                            <span
+                                                class="d-flex flex-md-row flex-column gap-4 align-items-baseline fw-medium text-secondary">21/10/2024
+                                                <sub class="font-12 text-race fw-medium ">Today</sub></span>
+                                        </div>
+                                        <p class="font-12 fw-medium text-secondary">Asia/Calcutta</p>
+
+                                    </div>
+                                    <div class="d-flex flex-md-row flex-column gap-16 align-items-md-center">
+                                        <div class="d-flex"> <input type="search" placeholder="Find your horse"
+                                                class="border-radius-4 text-secondary p-10 border-color filter-input flex-grow-sm"></input>
+                                        </div>
+                                        <div class="d-flex"> <button
+                                                class="body-4 btn text-white flex-grow-sm">Filters</button></div>
+
+                                    </div>
+
+
+                                </div>
+                                <div
+                                    class="py-20 d-flex flex-column flex-md-row flex-wrap justify-content-between gap-20 text-secondary">
+                                    <div class="d-flex gap-8 flex-row align-items-center fw-medium font-14">
+                                        <input type="checkbox" class="border-radius-4 text-secondary border-color " />
+                                        <label for="">Show my favourites only</label>
+                                    </div>
+
+                                    <div
+                                        class="d-flex gap-20 flex-column flex-md-row fw-medium font-14 align-items-md-center text-secondary">
+                                        <div class="d-flex gap-4 flex-row align-items-center horse-no">
+                                            <input type="radio" id="horse-no" name="radio-group1"
+                                                value="Number Of Horses" checked>
+                                            <label for="horse-no">Number Of Horses</label>
+                                        </div>
+                                        <div class="d-flex gap-4 flex-row align-items-center Promo-bookie">
+                                            <input type="radio" id="promo-bookie" name="radio-group"
+                                                value="Number Of Promo Bookies" checked>
+                                            <label for="promo-bookie">Number Of Promo Bookies</label>
+                                        </div>
+                                        <div class="d-flex gap-4 flex-row align-items-center best-mug">
+                                            <input type="radio" id="best-mug" name="radio-group2" value="Best Mug"
+                                                checked>
+                                            <label for="best-mug">Best Mug</label>
+                                        </div>
+                                        <div class="d-flex gap-4 flex-row align-items-center open-race">
+                                            <input type="radio" id="open-race" name="radio-group3" value="Open Race"
+                                                checked>
+                                            <label for="open-race">Open Race</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class=" ">
+
+                                    <div class=" py-40">
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-row  fw-medium font-16 overflow-x-scroll matrix-conatiner">
+                                                <div
+                                                    class="d-flex flex-column bg-grey p-16 border-radius-left-corner  matrix-heading">
+                                                    <p class="font-16 fw-medium text-semibold ">GAWLER</p>
+
+                                                </div>
+                                                <div class="d-flex flex-row px-16 gap-16">
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                            
+                                            
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon" class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-race text-dark border-radius-2 text-white race-info-card">0</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-promo border-radius-2 text-white race-info-card">M</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div
+                                                class="d-flex flex-row  fw-medium font-16 overflow-x-scroll matrix-conatiner">
+                                                <div
+                                                    class="d-flex flex-column bg-grey p-16 border-radius-left-corner matrix-heading  ">
+                                                    <p class="font-16 fw-medium text-semibold ">FLEMINGTO</p>
+
+                                                </div>
+                                                <div class="d-flex flex-row px-16 gap-16">
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                                <span
+                                                                    class="p-10 bg-race text-dark border-radius-2 text-white race-info-card">0</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div
+                                                class="d-flex flex-row  fw-medium font-16 overflow-x-scroll matrix-conatiner">
+                                                <div
+                                                    class="d-flex flex-column bg-grey p-16 border-radius-left-corner matrix-heading  ">
+                                                    <p class="font-16 fw-medium text-semibold">NORTHAM</p>
+
+                                                </div>
+                                                <div class="d-flex flex-row px-16 gap-16">
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-promo text-dark border-radius-2 text-white race-info-card">M</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                                <span 
+                                                                    class="p-10 bg-promo border-radius-2 text-white race-info-card">M</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span  
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+
+                                            <div
+                                                class="d-flex flex-row  fw-medium font-16 overflow-x-scroll matrix-conatiner">
+                                                <div
+                                                    class="d-flex flex-column bg-grey p-16 border-radius-left-corner matrix-heading">
+                                                    <p class="font-16 fw-medium text-semibold">IPSWICH</p>
+
+                                                </div>
+                                                <div class="d-flex flex-row px-16 gap-16">
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-promo border-radius-2 text-white race-info-card">M</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug text-dark border-radius-2 text-white race-info-card">1</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div
+                                                class="d-flex flex-row  fw-medium font-16 overflow-x-scroll matrix-conatiner">
+                                                <div
+                                                    class="d-flex flex-column bg-grey p-16 border-radius-left-corner  matrix-heading">
+                                                    <p class="font-16 fw-medium text-semibold ">HAWKESBURY</p>
+
+                                                </div>
+                                                <div class="d-flex flex-row px-16 gap-16">
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-race text-dark border-radius-2 text-white race-info-card">0</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card race-info-card ">12</span>
+                                                                <span
+                                                                    class="p-10 bg-promo border-radius-2 text-white race-info-card race-info-card">M</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex flex-column border-radius-8 bg-white p-16 gap-16 matrix-wrapper">
+                                                        <div class="d-flex flex-row justify-content-between flex-wrap">
+                                                            <div class="d-flex flex-column gap-8">
+                                                                <p class="d-flex flex-row gap-8 fw-medium font-14">
+                                                                    <span class="primary-text">R2</span>
+                                                                    <span class="text-secondary">(07 : 45)</span>
+
+                                                                </p>
+                                                                <p class="text-secondary">1300m</p>
+                                                            </div>
+                                                            <div>
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                            </div>
+                                                        </div>
+                                                        <div class="font-12 fw-medium">
+                                                            <p class=" ">
+                                                                <span class="text-run  bg-run border-4  px-4  py-8">Run
+                                                                    2nd</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex flex-column gap-10 fw-medium">
+                                                            <div class="d-flex flex-row gap-8 font-16">
+                                                                <span
+                                                                    class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
+                                                                <span
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
+                                                            </div>
+                                                            <div class="primary-text text-center font-12">
+                                                                View Bookies
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                </section>
+        `,
+        "Racing Planner":`
+         <section class="dashboard w-100 d-flex flex-column gap-40">
+                    <div>
+
                     </div>
-                    <div class="bg-white px-40 py-40">
-                        <p>Race Matrix content goes here.</p>
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <div class="d-flex gap-20 flex-column">
+                            <div class="d-flex gap-8">
+                                <span class="body-4"> Race Date :</span>
+                                <p class="body-4">21/10/2024 <span
+                                        class="font-12 span-text-color fw-normal">today</span></p>
+                            </div>
+                            <div>
+                                <p class="font-12  fw-normal">Asia/Calcutta</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-16">
+                            <input type="search" placeholder="Search.."
+                                class="border-radius-4 text-secondary p-16 border-color search-input-width flex-grow-md" />
+                            <button class="body-4 btn p-16 px-32 text-white ">Filters</button>
+
+                        </div>
                     </div>
-                </div>
-            </section>
+                    <div class="d-flex flex-column gap-16">
+                        <div class="d-flex gap-16 justify-content-end flex-wrap">
+                            <div class="d-flex align-items-center gap-8">
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="check-box">
+                                <label for="vehicle1 fw-normal font-14"> Show My Favourites Only</label>
+                            </div>
+                            <div class="d-flex align-items-center gap-8">
+                                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" class="check-box">
+                                <label for="vehicle2 fw-normal font-14">Show Completed Races</label>
+                            </div>
+                        </div>
+
+                        <div class="border border-radius-8 bg-white ">
+                            <div class=" d-flex flex-column gap-16 px-40">
+                                <div class="accordion" id="accordionExample">
+                                    <!-- Accordion Item -->
+                                    <div class="accordion-item d-flex flex-column gap-32">
+                                        <!-- Accordion Header -->
+                                        <h2 class="accordion-header bg-white " id="headingOne">
+                                            <button class="accordion-button d-flex justify-content-between"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">
+                                                <div class="d-flex justify-content-between w-100 align-items-center pe-3">
+                                                    <div class="d-flex gap-24 flex-wrap ">
+                                                        <p class="font-18 span-text-color fw-medium">Riccarton <span
+                                                                class="body-4 text-dark fw-normal">1400</span></p>
+                                                        <p class="font-18 span-text-color fw-medium">R1 <span
+                                                                class="body-4 text-dark fw-normal">04 : 42</span></p>
+                                                    </div>
+                                                    <div class="p">
+
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0" />
+                                                            <path
+                                                                d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                            </button>
+                                        </h2>
+
+                                        <!-- Accordion Body -->
+                                        <div id="collapseOne" class="accordion-collapse collapse pb-32"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body d-flex flex-column gap-8 py-32">
+                                                <!-- Content you provided -->
+                                                <div class="d-flex align-items-center gap-8 justify-content-end">
+                                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"
+                                                        class="check-box">
+                                                    <label for="vehicle1" class="fw-normal font-14">Add race to favourites
+                                                        Only</label>
+                                                </div>
+                                                <div class="border-radius-8 border d-flex flex-column gap-20 ">
+                                                    <div>
+                                                        <div
+                                                            class="py-32 px-24 border-bottom table-headding-bg d-flex justify-content-between flex-wrap">
+                                                            <p class="body-2 fw-medium font-18">1. Drake’s Drum </p>
+                                                            <div class="d-flex gap-24">
+                                                                <div class="d-flex flex-column gap-8">
+                                                                    <p class="body-4 text-dark">Win Fixed</p>
+                                                                    <p
+                                                                        class="bg-white p-16 border-radius-8 width-height">
+                                                                        50</p>
+                                                                </div>
+                                                                <div class="d-flex flex-column gap-8">
+                                                                    <p class="body-4 text-dark">Win Fixed</p>
+                                                                    <p
+                                                                        class="bg-white p-16 border-radius-8 width-height">
+                                                                        50</p>
+                                                                </div>
+                                                                <div class="d-flex flex-column gap-8">
+                                                                    <p class="body-4 text-dark">Using Bet Bonus</p>
+                                                                    <label class="switch">
+                                                                        <input type="checkbox">
+                                                                        <span class="slider round"></span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-20 px-24 d-flex flex-column gap-20">
+                                                            <div class="d-flex flex-column gap-32 ">
+                                                                <div
+                                                                    class="d-flex form-grid justify-content-between direction w-100 ">
+                                                                    <div class="w-50 d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4 flex-nowrap">Already have
+                                                                            Account?</label>
+                                                                        <select class="form-select w-100">
+                                                                            <option selected>Select option</option>
+                                                                            <option>Yes</option>
+                                                                            <option>No</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="w-50 d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4">Select
+                                                                            Bookies</label>
+                                                                        <select class="form-select w-100">
+                                                                            <option selected>Select option</option>
+                                                                            <option>Bookie 1</option>
+                                                                            <option>Bookie 2</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="d-flex justify-content-between gap-32 border-b pb-40 flex-wrap">
+                                                                    <div class="d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4">Bookie
+                                                                            Odds</label>
+                                                                        <input type="number" class="form-control me-2"
+                                                                            value="2">
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4">Bookie
+                                                                            Stake</label>
+                                                                        <input type="number" class="form-control me-2"
+                                                                            value="2">
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4">Returns
+                                                                            (Incl.Stake)</label>
+                                                                        <input type="number" class="form-control me-2"
+                                                                            value="2">
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4">Bookie
+                                                                            Profit ($)</label>
+                                                                        <input type="number" class="form-control me-2"
+                                                                            value="2">
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-8">
+                                                                        <p class="body-4 text-dark text-nowrap">Bookie
+                                                                            Bet Placed</p>
+                                                                        <label class="switch">
+                                                                            <input type="checkbox">
+                                                                            <span class="slider round"></span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <p
+                                                                    class="text-center font-12 span-text-color fw-normal">
+                                                                    Please note: All odds and payouts displayed here are
+                                                                    approximates.</p>
+                                                                <p
+                                                                    class="text-center font-12 span-text-color fw-normal">
+                                                                    Please check your bookie website for exact odds and
+                                                                    payouts. As always, practice responsible gambling.
+                                                                </p>
+                                                            </div>
+                                                            <div class="d-flex justify-content-end">
+                                                                <div class="d-flex gap-8 align-items-center">
+                                                                    <p class="body-4 text-nowrap fw-medium">Ran Position
+                                                                    </p>
+                                                                    <input type="number" class="form-control me-2"
+                                                                        value="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
         `,
         "Promo Mug Ratio": `
           <section class="dashboard w-100 d-flex flex-column gap-32">
@@ -3445,8 +5196,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
                             </div>
                             <div class="d-flex gap-20 flex-column flex-md-row fw-medium font-14">
-                                <button class="body-4 btn text-white ">Update Password</button>
-                                <button class="body-4 btn text-white">Edit Profile</button>
+                                <button class="body-4 btn text-white" data-bs-toggle="modal" data-bs-target="#changePasswordModal">Update Password</button>
+                                <button class="body-4 btn text-white" data-bs-toggle="modal" data-bs-target="#EditProfileModal" >Edit Profile</button>
                             </div>
                             
                         </div>

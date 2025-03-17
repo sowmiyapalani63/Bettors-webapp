@@ -1,7 +1,14 @@
 :root {
   --main-bg-color: #F1F1F1;
   --main-text-color: #370061;
+  --run-color:#FFF1DA;
+  --run-text-color:#E99000;
+  --radio-color1: #D2A5F3;
+  --radio-color2: #008000;
+  --radio-color3: #7200CB;
+  --radio-color4: #D1D1D1;
   --second-text-color: #FFFFFF;
+  --grey-secondary: #E5E5EA;
   --third-text-color: #545454;
   --fourth-text-color: #545454;
   --bold-text-color: #0E0E0E;
@@ -41,6 +48,7 @@ p {
   letter-spacing: 0%;
 
 }
+
 .bg-siderbar {
   background-color: var(--main-text-color);
 }
@@ -76,24 +84,55 @@ p {
 .primary-bg {
   background-color: var(--main-bg-color);
 }
+.bg-run {
+  background-color: var(--run-color);
+}
+.text-run{
+  color: var(--run-text-color);
+}
+.bg-grey {
+  background-color: var(--grey-secondary);
+}
 
+.bg-horse {
+  background-color: var(--radio-color1);
+}
+
+.bg-promo {
+  background-color: var(--radio-color3);
+}
+
+.bg-mug {
+  background-color: var(--radio-color2);
+}
+
+.bg-race {
+  background-color: var(--radio-color4);
+}
+.text-race {
+  color: var(--radio-color3);
+}
 .secondary-bg {
   background-color: var(--second-bg-color);
 }
+
 .border-color-primary {
-  border-color: var(--main-text-color) ;
+  border-color: var(--main-text-color);
 }
+
 .border-color {
   border-color: var(--border-color) !important;
 }
-.text-danger{
+
+.text-danger {
   color: var(--text-danger);
 }
 
 .border-radius-8-full {
   border-radius: 100%;
 }
-.bg-opacity{
+
+.bg-opacity {
   background: var(--State-Layers-On-Primary-Container-Opacity-12, #4F378A1F);
 }
 
@@ -108,6 +147,7 @@ p {
   font-size: 12px;
   line-height: 120%;
 }
+
 .font-14 {
   font-size: 14px;
   line-height: 150%;
@@ -122,6 +162,7 @@ p {
   font-size: 18px;
   line-height: 150%;
 }
+
 .font-22 {
   font-size: 22px;
   line-height: 150%;
@@ -130,14 +171,15 @@ p {
 
 /* font weight */
 .fw-normal {
-  font-weight: 400 ;
+  font-weight: 400 !important;
 }
 
 .fw-medium {
-  font-weight: 500 ;
+  font-weight: 500 !important;
 }
+
 .fw-bold {
-  font-weight: 600 ;
+  font-weight: 600 !important;
 }
 
 
@@ -161,31 +203,42 @@ p {
 
 #wrapper #page-content-wrapper .main-bg-color {
   background-color: var(--main-bg-color);
-  height: 100vh;
+  /* height: 100vh; */
   flex-grow: 1;
 }
+
 .px-4 {
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
 }
+
 .py-8 {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
 }
+
 .py-8 {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.px-16{
-  padding-left: 16px ;
-  padding-right: 16px ;
+
+.px-16 {
+  padding-left: 16px;
+  padding-right: 16px;
 }
-.p-12{
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-12 {
   padding: 12px;
 }
+
 .p-16 {
   padding: 16px !important;
 }
+
 .py-20 {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -200,9 +253,10 @@ p {
   padding-left: 24px;
 }
 .px-18 {
-  padding-left: 18px ;
-  padding-right: 18px ;
+  padding-left: 18px;
+  padding-right: 18px;
 }
+
 .p-32 {
   padding: 32px;
 }
@@ -211,10 +265,12 @@ p {
   padding-left: 32px !important;
   padding-right: 32px !important;
 }
+
 .py-32 {
   padding-top: 32px !important;
   padding-bottom: 32px !important;
 }
+
 .px-40 {
   padding-left: 40px !important;
   padding-right: 40px !important;
@@ -231,12 +287,24 @@ p {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.border-b{
+
+.border-b {
   border-bottom: 1px solid var(--border-color);
 }
-.border-r{
+
+.border-r {
   border-right: 1px solid var(--border-color);
 }
+
+.border-radius-left-corner {
+  border-radius: 8px 0px 0px 8px;
+}
+
+.border-radius-2 {
+  border-radius: 2px;
+
+}
+
 .border-radius-8 {
   border-radius: 8px;
   overflow: hidden;
@@ -248,9 +316,20 @@ p {
   border-radius: 4px !important;
   overflow: hidden;
 }
-.gap-10 {
-  gap: 16px;
+.border-4 {
+  border-radius: 4px !important;
+  overflow: hidden;
 }
+.overflow-x-scroll{
+  overflow-x:scroll;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-12 {
+  gap: 12px;
+}
+
 .gap-16 {
   gap: 16px;
 }
@@ -258,11 +337,17 @@ p {
 .gap-20 {
   gap: 20px;
 }
+
 .gap-22 {
   gap: 22px;
 }
+
 .gap-8 {
   gap: 8px;
+}
+
+.gap-4 {
+  gap: 4px !important;
 }
 
 .gap-32 {
@@ -284,6 +369,7 @@ p {
 .gap-16{
   gap:16px !important ;
 }
+
 
 .btn {
   background-color: var(--main-text-color);
@@ -381,58 +467,90 @@ p {
 .modal .form-control {
   padding: 0.55rem 0.76rem;
 }
+
 .form-grid .form-control {
   padding: 0.85rem 0.76rem;
 }
+
 .form-grid .form-select {
   padding: 0.85rem 0.76rem;
 }
+
 input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(29%) sepia(0%) saturate(0%) hue-rotate(0deg);
 }
-table{
+
+table {
   min-width: 1000px;
   min-height: 114px;
 }
- .radio-wrapper{
+
+.radio-wrapper {
   /* min-width: 1000px;
   min-height: 114px; */
   scroll-behavior: smooth;
   overflow-x: scroll;
 }
-.redio-container{
- min-width: 82px;
- min-height: 122px;
+
+.redio-container {
+  min-width: 82px;
+  min-height: 122px;
 }
-input[type="radio"] {
+
+.horse-no input[type="radio"] {
+  accent-color: var(--radio-color1);
+  /* Example: Red */
+}
+
+.Promo-bookie input[type="radio"] {
+  accent-color: var(--radio-color2);
+  /* Example: Blue */
+}
+
+.best-mug input[type="radio"] {
+  accent-color: var(--radio-color3);
+  /* Example: Green */
+}
+
+.open-race input[type="radio"] {
+  accent-color: var(--radio-color4);
+  /* Example: Yellow */
+}
+
+.radio-container input[type="radio"] {
   min-width: 24px;
   min-height: 24px;
-  accent-color: var(--main-text-color); 
+  accent-color: var(--main-text-color);
 }
 
 .page-item.active .page-link {
   background-color: var(--main-text-color);
   border-color: var(--main-text-color);
 }
+
 a:hover {
   color: inherit;
 }
+
 .page-link:hover {
   color: inherit;
   background: inherit;
 }
-.form-grid{
+
+.form-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 }
 
 .span-2 {
-  grid-column: span 2; 
+  grid-column: span 2;
 }
-.logbook-table th{
+
+.logbook-table th {
   min-width: 178px;
 }
+
 #carousel-container {
   display: flex;
   overflow-x: scroll;
@@ -441,7 +559,7 @@ a:hover {
 
 #carousel-container .d-flex {
   flex-shrink: 0;
-  width: 133px; 
+  width: 133px;
 }
 
 #carousel-container .d-flex:first-child .card-carousel-bg {
@@ -454,26 +572,29 @@ a:hover {
 }
 
 .card-carousel-bg {
-  background-color: #f0f0f0; 
-  transition: background-color 0.3s ease; 
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
 }
+
 .card-carousel-bg {
   color: var(--main-text-color);
   background: var(--second-text-color);
   min-width: 136px;
   min-height: 76px;
 }
+
 /* .carousal-container{
   min-width: 968px;
   min-height: 64px;
 } */
-.w-48{
-  min-width: 48px ;
+.w-48 {
+  min-width: 48px;
 }
 
 .h-20 {
   max-height: 20%;
 }
+
 @media (min-width: 768px) {
   #sidebar-wrapper {
     margin-left: 0;
@@ -519,33 +640,41 @@ a:hover {
   .race-radar-img {
     max-width: 280px;
   }
-  .flex-grow-sm{
+
+  .flex-grow-sm {
     flex-grow: 1;
   }
-  .font-30{
+
+  .font-30 {
     font-size: 30px;
     line-height: 120%;
   }
-  .font-sm-14{
+
+  .font-sm-14 {
     font-size: 14px;
   }
 }
+
 @media (max-width: 1024px) {
-  .form-grid{
-    grid-template-columns: repeat(1, 1fr); 
+  .form-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
+
 @media (min-width: 1024px) {
   .changePasswordContent {
     width: 450px;
   }
-  .filter-input{
+
+  .filter-input {
     width: 300px;
   }
+
   .h-30 {
     max-height: 80px;
   }
 }
+
 @media (min-width: 1024px) {
   .editPasswordContent {
     min-width: 700px;
@@ -558,9 +687,11 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   min-width: 150px;
 }
+
 .bet-table {
   background: rgba(79, 55, 138, 0.12);
 }
+
 .rotate-45 {
   transform: rotate(-45deg);
   width: 100%;
@@ -636,7 +767,7 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
+/* race picker */
 .slider.round {
   border-radius: 34px;
 }
@@ -663,4 +794,22 @@ input:checked + .slider:before {
 }
 .accordion-body{
   padding:0px !important;
+}
+.matrix-heading{
+  min-width: 160px;
+}
+.matrix-wrapper{
+  min-width: 184px;
+}
+.matrix-conatiner::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.matrix-conatiner {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+.race-info-card{
+  max-height: 32px;
 }
