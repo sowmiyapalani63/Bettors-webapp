@@ -281,20 +281,55 @@
 
                     </div>
 
-                </section>
-            </div>
-            <div class="modal fade" id="LogoutModal" tabindex="-1" aria-labelledby="LogoutLabel"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content px-40  py-40 gap-40 border-radius-8 changePasswordContent ">
-                        <div class="d-flex flex-row flex-end justify-content-between align-items-center">
-                            
-                            <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </section>
+                </div>
+                <div class="modal fade" id="LogoutModal" tabindex="-1" aria-labelledby="LogoutLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content px-40  py-40 gap-40 border-radius-8 changePasswordContent ">
+                            <div class="d-flex flex-row flex-end justify-content-between align-items-center">
+
+                                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div
+                                class="modal-body gap-16 d-flex flex-column p-0 justify-content-center align-items-center">
+                                <img src="./asssest/image/logout.svg" alt="logout" class="d-block d-md-none" />
+
+                                <h3 class="modal-title font-22 font-30 text-bold text-semibold" id="LogoutLabel ">Logout
+                                </h3>
+                                <p class="fw-medium font-16 font-sm-14">Are you sure want to log out?</p>
+                            </div>
+                            <div
+                                class="d-flex gap-20 flex-column-reverse flex-md-row fw-medium font-14 fw-medium justify-content-between">
+                                <button
+                                    class="body-4  model-btn-width model-btn bg-white text-secondary border-radius-4 border-color text-decoration-none"
+                                    data-bs-dismiss="modal">Cancel</button>
+                                <button class="body-4 model-btn-width model-btn text-white border-radius-4">Yes, Log
+                                    Out</button>
+                            </div>
+
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="LogoutModal" tabindex="-1" aria-labelledby="LogoutLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div
+                        class="modal-content px-40  py-40 gap-40 border-radius-8 changePasswordContent position-relative">
+                        <button type="button" class="btn-close float-end position-absolute top-0 end-0 m-2"
+                            data-bs-dismiss="modal" aria-label="Close"></button>
+                        <!-- <div class="d-flex flex-row justify-content-between align-items-center">
+                   
+
+                </div> -->
                         <div class="modal-body gap-16 d-flex flex-column p-0 justify-content-center align-items-center">
-                            <img src="./asssest/image/logout.svg" alt="logout" class="d-block d-md-none"/>
-        
-                            <h3 class="modal-title font-22 font-30 text-bold text-semibold" id="LogoutLabel ">Logout
+                            <!-- <button type="button" class="btn-close float-end" data-bs-dismiss="modal"
+                        aria-label="Close"></button> -->
+                            <img src="./asssest/image/logout.svg" alt="logout" class="d-block d-md-none" />
+
+                            <h3 class="modal-title font-22 font-30 text-bold text-semibold" id="LogoutLabel ">
+                                <span>Logout</span>
+
                             </h3>
                             <p class="fw-medium font-16 font-sm-14">Are you sure want to log out?</p>
                         </div>
@@ -310,63 +345,65 @@
                     </div>
                 </div>
             </div>
+
         </div>
+        <!-- /#page-content-wrapper -->
 
-    </div>
-    <!-- /#page-content-wrapper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            var el = document.getElementById("wrapper");
+            var toggleButton = document.getElementById("menu-toggle");
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        var el = document.getElementById("wrapper");
-        var toggleButton = document.getElementById("menu-toggle");
+            toggleButton.onclick = function () {
+                el.classList.toggle("toggled");
+            };
 
-        toggleButton.onclick = function () {
-            el.classList.toggle("toggled");
-        };
 
-        document.getElementById("prevBtn").addEventListener("click", function () {
-            let container = document.getElementById("carousel-container");
-            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
-            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
-            container.scrollBy({
-                left: -cardWidth,
-                left: -cardWidth,
-                behavior: "smooth"
+
+            document.getElementById("nextBtn").addEventListener("click", function () {
+                let container = document.getElementById("carousel-container");
+                let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
+
+                container.scrollBy({
+                    left: cardWidth,
+                    behavior: "smooth"
+                });
+
+                updateCardBackground(container);
             });
-            updateCardBackground(container);
-        });
 
-        document.getElementById("nextBtn").addEventListener("click", function () {
-            let container = document.getElementById("carousel-container");
-            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
-            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
-            container.scrollBy({
-                left: cardWidth,
-                left: cardWidth,
-                behavior: "smooth"
-            });
-            updateCardBackground(container);
-        });
+            function updateCardBackground(container) {
+                let cards = container.querySelectorAll('.d-flex');
+                let firstVisibleCardIndex = Math.floor(container.scrollLeft / (cards[0].offsetWidth + 30));
 
-        function updateCardBackground(container) {
-            let cards = container.querySelectorAll('.d-flex');
-            let firstVisibleCardIndex = Math.floor(container.scrollLeft / (cards[0].offsetWidth + 30));
-            let firstVisibleCardIndex = Math.floor(container.scrollLeft / (cards[0].offsetWidth + 30));
-            cards.forEach(card => {
-                card.querySelector('.card-carousel-bg').style.backgroundColor = '';
-                card.querySelector('.card-carousel-bg').style.backgroundColor = '';
-            });
-            let firstVisibleCard = cards[firstVisibleCardIndex];
-            if (firstVisibleCard) {
-                firstVisibleCard.querySelector('.card-carousel-bg').style.backgroundColor = 'purple';
-                firstVisibleCard.querySelector('.card-carousel-bg').style.backgroundColor = 'purple';
+                cards.forEach(card => {
+                    card.querySelector('.card-carousel-bg').style.backgroundColor = '';
+                });
+
+                let firstVisibleCard = cards[firstVisibleCardIndex];
+                if (firstVisibleCard) {
+                    firstVisibleCard.querySelector('.card-carousel-bg').style.backgroundColor = 'purple';
+                }
             }
-        }
 
-    </script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const heartIcons = document.getElementsByClassName("heartIcon");
+                for (let i = 0; i < heartIcons.length; i++) {
+                    heartIcons[i].addEventListener("click", function () {
+                        if (this.style.filter === "brightness(0) saturate(100%) invert(74%) sepia(91%) saturate(379%) hue-rotate(359deg) brightness(104%) contrast(103%)") {
+                            this.style.filter = "";
+                        } else {
+                            this.style.filter = "brightness(0) saturate(100%) invert(54%) sepia(91%) saturate(679%) hue-rotate(10deg) brightness(105%) contrast(103%)";
+                        }
+                    });
+                }
+            });
 
 
-    <script src="app.js"></script>
+        </script>
+
+
+        <script src="app.js"></script>
 </body>
 
 </html>
