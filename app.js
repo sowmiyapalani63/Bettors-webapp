@@ -5343,18 +5343,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 </section>
         `,
-        "My Race Picks": `
-            <section class="dashboard w-100 d-flex flex-column gap-32">
-                <div class="border border-radius-8">
-                    <div class="py-20 px-40 border-bottom table-headding-bg">
-                        <p class="body-2 fw-medium font-18 text-semibold">My Race Picks</p>
-                    </div>
-                    <div class="bg-white px-40 py-40">
-                        <p>My Race Picks content goes here.</p>
-                    </div>
-                </div>
-            </section>
-        `,
         "Profile": `
             <section class="dashboard w-100 d-flex flex-column gap-32">
                 <div class="border border-radius-8  ">
