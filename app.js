@@ -1773,6 +1773,206 @@ document.addEventListener("DOMContentLoaded", function () {
                 </section>
 
         `,
+        "My Race Picks":`
+         <section class="dashboard w-100 d-flex flex-column gap-40">
+                    <div>
+
+                    </div>
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <div class="d-flex gap-20 flex-column">
+                            <div class="d-flex gap-8">
+                                <span class="body-4"> Race Date :</span>
+                                <p class="body-4">21/10/2024 <span
+                                        class="font-12 span-text-color fw-normal">today</span></p>
+                            </div>
+                            <div>
+                                <p class="font-12  fw-normal">Asia/Calcutta</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-16">
+                            <input type="search" placeholder="Search.."
+                                class="border-radius-4 text-secondary p-16 border-color search-input-width flex-grow-md" />
+                            <button class="body-4 btn p-16 px-32 text-white ">Filters</button>
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column gap-16">
+                        <div class="d-flex gap-16 justify-content-end flex-wrap">
+                            <div class="d-flex align-items-center gap-8">
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="check-box">
+                                <label for="vehicle1 fw-normal font-14"> Show My Favourites Only</label>
+                            </div>
+                            <div class="d-flex align-items-center gap-8">
+                                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" class="check-box">
+                                <label for="vehicle2 fw-normal font-14">Show Completed Races</label>
+                            </div>
+                        </div>
+
+                        <div class="border border-radius-8 bg-white ">
+                            <div class=" d-flex flex-column gap-16 px-40">
+                                <div class="accordion" id="accordionExample">
+                                    <!-- Accordion Item -->
+                                    <div class="accordion-item d-flex flex-column gap-32">
+                                        <!-- Accordion Header -->
+                                        <h2 class="accordion-header bg-white " id="headingOne">
+                                            <button class="accordion-button d-flex justify-content-between"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">
+                                                <div class="d-flex justify-content-between w-100 align-items-center pe-3">
+                                                    <div class="d-flex gap-24 flex-wrap ">
+                                                        <p class="font-18 span-text-color fw-medium">Riccarton <span
+                                                                class="body-4 text-dark fw-normal">1400</span></p>
+                                                        <p class="font-18 span-text-color fw-medium">R1 <span
+                                                                class="body-4 text-dark fw-normal">04 : 42</span></p>
+                                                    </div>
+                                                    <div class="p">
+
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0" />
+                                                            <path
+                                                                d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                            </button>
+                                        </h2>
+
+                                        <!-- Accordion Body -->
+                                        <div id="collapseOne" class="accordion-collapse collapse pb-32"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body d-flex flex-column gap-8 py-32">
+                                                <!-- Content you provided -->
+                                                <div class="d-flex align-items-center gap-8 justify-content-end">
+                                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"
+                                                        class="check-box">
+                                                    <label for="vehicle1" class="fw-normal font-14">Add race to favourites
+                                                        Only</label>
+                                                </div>
+                                                <div class="border-radius-8 border d-flex flex-column gap-20 ">
+                                                    <div>
+                                                        <div
+                                                            class="py-32 px-24 border-bottom table-headding-bg d-flex justify-content-between flex-wrap">
+                                                            <p class="body-2 fw-medium font-18">1. Drake’s Drum </p>
+                                                            <div class="d-flex gap-24">
+                                                                <div class="d-flex flex-column gap-8">
+                                                                    <p class="body-4 text-dark">Win Fixed</p>
+                                                                    <p
+                                                                        class="bg-white p-16 border-radius-8 width-height">
+                                                                        50</p>
+                                                                </div>
+                                                                <div class="d-flex flex-column gap-8">
+                                                                    <p class="body-4 text-dark">Win Fixed</p>
+                                                                    <p
+                                                                        class="bg-white p-16 border-radius-8 width-height">
+                                                                        50</p>
+                                                                </div>
+                                                                <div class="d-flex flex-column gap-8">
+                                                                    <p class="body-4 text-dark">Using Bet Bonus</p>
+                                                                    <label class="switch">
+                                                                        <input type="checkbox">
+                                                                        <span class="slider round"></span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-20 px-24 d-flex flex-column gap-20">
+                                                            <div class="d-flex flex-column gap-32 ">
+                                                                <div
+                                                                    class="d-flex form-grid justify-content-between direction w-100 ">
+                                                                    <div class="w-50 d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4 flex-nowrap">Already have
+                                                                            Account?</label>
+                                                                        <select class="form-select w-100">
+                                                                            <option selected>Select option</option>
+                                                                            <option>Yes</option>
+                                                                            <option>No</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="w-50 d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4">Select
+                                                                            Bookies</label>
+                                                                        <select class="form-select w-100">
+                                                                            <option selected>Select option</option>
+                                                                            <option>Bookie 1</option>
+                                                                            <option>Bookie 2</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="d-flex justify-content-between gap-32 border-b pb-40 flex-wrap">
+                                                                    <div class="d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4">Bookie
+                                                                            Odds</label>
+                                                                        <input type="number" class="form-control me-2"
+                                                                            value="2">
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4">Bookie
+                                                                            Stake</label>
+                                                                        <input type="number" class="form-control me-2"
+                                                                            value="2">
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4">Returns
+                                                                            (Incl.Stake)</label>
+                                                                        <input type="number" class="form-control me-2"
+                                                                            value="2">
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-8">
+                                                                        <label class="text-semibold body-4">Bookie
+                                                                            Profit ($)</label>
+                                                                        <input type="number" class="form-control me-2"
+                                                                            value="2">
+                                                                    </div>
+                                                                    <div class="d-flex flex-column gap-8">
+                                                                        <p class="body-4 text-dark text-nowrap">Bookie
+                                                                            Bet Placed</p>
+                                                                        <label class="switch">
+                                                                            <input type="checkbox">
+                                                                            <span class="slider round"></span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <p
+                                                                    class="text-center font-12 span-text-color fw-normal">
+                                                                    Please note: All odds and payouts displayed here are
+                                                                    approximates.</p>
+                                                                <p
+                                                                    class="text-center font-12 span-text-color fw-normal">
+                                                                    Please check your bookie website for exact odds and
+                                                                    payouts. As always, practice responsible gambling.
+                                                                </p>
+                                                            </div>
+                                                            <div class="d-flex justify-content-end">
+                                                                <div class="d-flex gap-8 align-items-center">
+                                                                    <p class="body-4 text-nowrap fw-medium">Ran Position
+                                                                    </p>
+                                                                    <input type="number" class="form-control me-2"
+                                                                        value="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+        `,
         "Promo Mug Ratio": `
       <section class="dashboard w-100 d-flex flex-column gap-32">
                     <div class=" px-40 ">
