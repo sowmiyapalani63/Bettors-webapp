@@ -110,77 +110,37 @@
                     Profile</span></div>
 
             <div class="main-bg-color container-fluid p-32 overflow-hidden">
-                <section class="dashboard w-100 d-flex flex-column gap-32">
-                    <div class="border border-radius-8 ">
-                        <div class=" py-20 px-40 border-bottom table-headding-bg">
-                            <p class="  body-2 fw-medium font-18 text-semibold">My Profile</p>
+                <section class="dashboard w-100 d-flex flex-column gap-40">
+                    <div>
+
+                    </div>
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <div class="d-flex gap-20 flex-column">
+                            <div class="d-flex gap-8">
+                                <span class="body-4"> Race Date :</span>
+                                <p class="body-4">21/10/2024 <span
+                                        class="font-12 span-text-color fw-normal">today</span></p>
+                            </div>
+                            <div>
+                                <p class="font-12  fw-normal">Asia/Calcutta</p>
+                            </div>
                         </div>
-                        <div class="bg-white px-40">
-                            <div
-                                class=" py-20  d-flex  justify-content-between align-items-center border-bottom flex-wrap gap-3">
-                                <div class="d-flex gap-20">
-                                    <div>
-                                        <img src="./asssest/image/profile.png" alt=" user" class="image w-100">
-                                    </div>
-                                    <div class="d-flex flex-column justify-content-center gap-8 font-18  fw-medium">
-                                        <p class="text-secondary">SUNDARRAJAN</p>
-                                        <p class="text-ternary">Australia, NSW</p>
-                                    </div>
+                        <div class="d-flex align-items-center gap-16">
+                            <input type="search" placeholder="Search.."
+                                class="border-radius-4 text-secondary p-16 border-color search-input-width flex-grow-md" />
+                            <button class="body-4 btn p-16 px-32 text-white ">Filters</button>
 
-                                </div>
-                                <div class="d-flex gap-20 flex-column flex-md-row fw-medium font-14">
-                                    <button class="body-4 btn text-white " data-bs-toggle="modal"
-                                        data-bs-target="#changePasswordModal">Update Password</button>
-                                    <button class="body-4 btn text-white " data-bs-toggle="modal"
-                                        data-bs-target="#EditProfileModal">Edit Profile</button>
-                                </div>
-
-                            </div>
-                            <div class="row py-40 g-5  font-16 fw-medium">
-                                <div class="col-md-4 d-flex gap-8 flex-column">
-                                    <p class="table-sub-name text-ternary">First Name</p>
-                                    <p class="table-name text-secondary">SUNDARRAJAN</p>
-                                </div>
-                                <div class="col-md-4 d-flex gap-8 flex-column">
-                                    <p class="table-sub-name text-ternary">Last Name</p>
-                                    <p class="table-name text-secondary">SUNDARAKATTI</p>
-                                </div>
-                                <div class="col-md-4 d-flex gap-8 flex-column">
-                                    <p class="table-sub-name text-ternary">Email ID</p>
-                                    <p mailto:class="table-name text-secondary">revathisyd@gmail.com</p>
-                                </div>
-                                <div class="col-md-4 d-flex gap-8 flex-column">
-                                    <p class="table-sub-name text-ternary">Mobile</p>
-                                    <p class="table-name text-secondary">0421443969</p>
-                                </div>
-                                <div class="col-md-4 d-flex gap-8 flex-column">
-                                    <p class="table-sub-name text-ternary">Address</p>
-                                    <p class="table-name text-secondary">Australia, NSW</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                    <div class="border border-radius-8  ">
-                        <div class=" py-20 px-40 border-bottom table-headding-bg">
-                            <p class="  body-2 fw-medium font-18 text-semibold ">Subscription Details </p>
-                        </div>
-                        <div class="bg-white px-40">
-                            <div class=" d-flex justify-content-between align-items-center ">
+                    <div class="d-flex flex-column gap-16">
+                        <div class="d-flex gap-16 justify-content-end flex-wrap">
+                            <div class="d-flex align-items-center gap-8">
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="check-box">
+                                <label for="vehicle1 fw-normal font-14"> Show My Favourites Only</label>
                             </div>
-                            <div class="row py-40 g-5  font-16 fw-medium ">
-                                <div class="col-md-4 d-flex gap-8 flex-column">
-                                    <p class="table-sub-name text-ternary">Subscription Type</p>
-                                    <p class="table-name text-secondary">BETTERBETTORS BASIC</p>
-                                </div>
-                                <div class="col-md-4 d-flex gap-8 flex-column">
-                                    <p class="table-sub-name text-ternary">Expiry Date</p>
-                                    <p class="table-name text-secondary">31 DEC, 2024</p>
-                                </div>
-                                <div class="col-md-4 d-flex gap-8 flex-column">
-                                    <p class="table-sub-name text-ternary">Days Remaining</p>
-                                    <p class="table-name text-secondary">74</p>
-                                </div>
-
+                            <div class="d-flex align-items-center gap-8">
+                                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" class="check-box">
+                                <label for="vehicle2 fw-normal font-14">Show Completed Races</label>
                             </div>
                         </div>
                     </div>
@@ -320,7 +280,8 @@
                         </div>
 
                     </div>
-                </div>
+
+                </section>
             </div>
             <div class="modal fade" id="LogoutModal" tabindex="-1" aria-labelledby="LogoutLabel"
                 aria-hidden="true">
@@ -350,6 +311,7 @@
                 </div>
             </div>
         </div>
+
     </div>
     <!-- /#page-content-wrapper -->
 
@@ -365,7 +327,9 @@
         document.getElementById("prevBtn").addEventListener("click", function () {
             let container = document.getElementById("carousel-container");
             let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
+            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
             container.scrollBy({
+                left: -cardWidth,
                 left: -cardWidth,
                 behavior: "smooth"
             });
@@ -375,7 +339,9 @@
         document.getElementById("nextBtn").addEventListener("click", function () {
             let container = document.getElementById("carousel-container");
             let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
+            let cardWidth = container.querySelector('.d-flex').offsetWidth + 30;
             container.scrollBy({
+                left: cardWidth,
                 left: cardWidth,
                 behavior: "smooth"
             });
@@ -385,16 +351,20 @@
         function updateCardBackground(container) {
             let cards = container.querySelectorAll('.d-flex');
             let firstVisibleCardIndex = Math.floor(container.scrollLeft / (cards[0].offsetWidth + 30));
+            let firstVisibleCardIndex = Math.floor(container.scrollLeft / (cards[0].offsetWidth + 30));
             cards.forEach(card => {
+                card.querySelector('.card-carousel-bg').style.backgroundColor = '';
                 card.querySelector('.card-carousel-bg').style.backgroundColor = '';
             });
             let firstVisibleCard = cards[firstVisibleCardIndex];
             if (firstVisibleCard) {
                 firstVisibleCard.querySelector('.card-carousel-bg').style.backgroundColor = 'purple';
+                firstVisibleCard.querySelector('.card-carousel-bg').style.backgroundColor = 'purple';
             }
         }
 
     </script>
+
 
     <script src="app.js"></script>
 </body>
