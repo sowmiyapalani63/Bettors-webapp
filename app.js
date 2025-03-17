@@ -5175,7 +5175,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             </div>
                             <div class="d-flex gap-20 flex-column flex-md-row fw-medium font-14">
                                 <button class="body-4 btn text-white" data-bs-toggle="modal" data-bs-target="#changePasswordModal">Update Password</button>
-                                <button class="body-4 btn text-white data-bs-toggle="modal" data-bs-target="#EditProfileModal" >Edit Profile</button>
+                                <button class="body-4 btn text-white" data-bs-toggle="modal" data-bs-target="#EditProfileModal" >Edit Profile</button>
                             </div>
                             
                         </div>
