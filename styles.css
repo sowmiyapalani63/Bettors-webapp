@@ -441,6 +441,15 @@ p {
 .list-group-item-action:focus {
   color: white;
 }
+table thead th {
+  min-height: 61px !important;
+  font-weight: 500 !important;
+}
+
+table tbody td {
+  min-height: 51px !important;
+  font-weight: 400 !important;
+}
 
 .list-group-item-action:hover {
   background-color: #47146D;
@@ -502,7 +511,7 @@ table {
 
 .horse-no input[type="radio"] {
   accent-color: var(--radio-color1);
-  /* Example: Red */
+
 }
 
 .Promo-bookie input[type="radio"] {

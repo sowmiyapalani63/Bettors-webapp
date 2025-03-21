@@ -5379,111 +5379,116 @@ document.addEventListener("DOMContentLoaded", function () {
                 </section>
         `,
         "Profile": `
-            <section class="dashboard w-100 d-flex flex-column gap-32">
-                <div class="border border-radius-8  ">
-                    <div class=" py-20 px-40 border-bottom table-headding-bg">
-                        <p class="  body-2 fw-medium font-18 text-semibold">My Profile</p>
-                    </div>
-                    <div class="bg-white px-40">
-                        <div class=" py-20  d-flex  justify-content-between align-items-center border-bottom flex-wrap gap-3">
-                            <div class="d-flex gap-20">
-                                <div>
-                                    <img src="./asssest/image/profile.png" alt=" user" class="image w-100">
+             <section class="dashboard w-100 d-flex flex-column gap-32">
+                    <div class="border border-radius-8  ">
+                        <div class=" py-20 px-40 border-bottom table-headding-bg">
+                            <p class="  body-2 fw-medium font-18 text-semibold">My Profile</p>
+                        </div>
+                        <div class="bg-white px-40">
+                            <div
+                                class=" py-20  d-flex  justify-content-between align-items-center border-bottom flex-wrap gap-3">
+                                <div class="d-flex gap-20">
+                                    <div>
+                                        <img src="./asssest/image/profile.png" alt=" user" class="image w-100">
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center gap-8 font-18  fw-medium">
+                                        <p class="text-secondary">SUNDARRAJAN</p>
+                                        <p class="text-ternary">Australia, NSW</p>
+                                    </div>
+
                                 </div>
-                                <div class="d-flex flex-column justify-content-center gap-8 font-18  fw-medium">
-                                    <p class="text-secondary">SUNDARRAJAN</p>
-                                    <p class="text-ternary">Australia, NSW</p>
+                                <div class="d-flex gap-20 flex-column flex-md-row fw-medium font-14">
+                                    <button class="body-4 btn text-white" data-bs-toggle="modal"
+                                        data-bs-target="#changePasswordModal">Update Password</button>
+                                    <button class="body-4 btn text-white" data-bs-toggle="modal"
+                                        data-bs-target="#EditProfileModal">Edit Profile</button>
                                 </div>
 
                             </div>
-                            <div class="d-flex gap-20 flex-column flex-md-row fw-medium font-14">
-                                <button class="body-4 btn text-white" data-bs-toggle="modal" data-bs-target="#changePasswordModal">Update Password</button>
-                                <button class="body-4 btn text-white" data-bs-toggle="modal" data-bs-target="#EditProfileModal" >Edit Profile</button>
-                            </div>
-                            
-                        </div>
-                        <div class="row py-40 g-5  font-16 fw-medium">
-                            <div class="col-md-4 d-flex gap-8 flex-column">
-                                <p class="table-sub-name text-ternary">First Name</p>
-                                <p class="table-name text-secondary">SUNDARRAJAN</p>
-                            </div>
-                            <div class="col-md-4 d-flex gap-8 flex-column">
-                                <p class="table-sub-name text-ternary">Last Name</p>
-                                <p class="table-name text-secondary">SUNDARAKATTI</p>
-                            </div>
-                            <div class="col-md-4 d-flex gap-8 flex-column">
-                                <p class="table-sub-name text-ternary">Email ID</p>
-                                <p mailto:class="table-name text-secondary">revathisyd@gmail.com</p>
-                            </div>
-                            <div class="col-md-4 d-flex gap-8 flex-column">
-                                <p class="table-sub-name text-ternary">Mobile</p>
-                                <p class="table-name text-secondary">0421443969</p>
-                            </div>
-                            <div class="col-md-4 d-flex gap-8 flex-column">
-                                <p class="table-sub-name text-ternary">Address</p>
-                                <p class="table-name text-secondary">Australia, NSW</p>
+                            <div class="row py-40 g-5  font-16 fw-medium">
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">First Name</p>
+                                    <p class="table-name text-secondary">SUNDARRAJAN</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Last Name</p>
+                                    <p class="table-name text-secondary">SUNDARAKATTI</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Email ID</p>
+                                    <p mailto:class="table-name text-secondary">revathisyd@gmail.com</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Mobile</p>
+                                    <p class="table-name text-secondary">0421443969</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Address</p>
+                                    <p class="table-name text-secondary">Australia, NSW</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="border border-radius-8  ">
-                    <div class=" py-20 px-40 border-bottom table-headding-bg">
-                        <p class="  body-2 fw-medium font-18 text-semibold ">Subscription Details </p>
-                    </div>
-                    <div class="bg-white px-40">
-                        <div class=" d-flex justify-content-between align-items-center ">
+                    <div class="border border-radius-8  ">
+                        <div class=" py-20 px-40 border-bottom table-headding-bg">
+                            <p class="  body-2 fw-medium font-18 text-semibold ">Subscription Details </p>
                         </div>
-                        <div class="row py-40 g-5  font-16 fw-medium ">
-                            <div class="col-md-4 d-flex gap-8 flex-column">
-                                <p class="table-sub-name text-ternary">Subscription Type</p>
-                                <p class="table-name text-secondary">BETTERBETTORS BASIC</p>
+                        <div class="bg-white px-40">
+                            <div class=" d-flex justify-content-between align-items-center ">
                             </div>
-                            <div class="col-md-4 d-flex gap-8 flex-column">
-                                <p class="table-sub-name text-ternary">Expiry Date</p>
-                                <p class="table-name text-secondary">31 DEC, 2024</p>
-                            </div>
-                            <div class="col-md-4 d-flex gap-8 flex-column">
-                                <p class="table-sub-name text-ternary">Days Remaining</p>
-                                <p class="table-name text-secondary">74</p>
-                            </div>
+                            <div class="row py-40 g-5  font-16 fw-medium ">
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Subscription Type</p>
+                                    <p class="table-name text-secondary">BETTERBETTORS BASIC</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Expiry Date</p>
+                                    <p class="table-name text-secondary">31 DEC, 2024</p>
+                                </div>
+                                <div class="col-md-4 d-flex gap-8 flex-column">
+                                    <p class="table-sub-name text-ternary">Days Remaining</p>
+                                    <p class="table-name text-secondary">74</p>
+                                </div>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="border border-radius-8  ">
-                    <div class=" py-20 px-40 border-bottom table-headding-bg">
-                        <p class="  body-2 fw-medium font-18 text-semibold">Subscription Details </p>
-                    </div>
-                    <div class="bg-white px-40 ">
-                        <div class=" d-flex justify-content-between align-items-center ">
-                        </div>
-                        <div class="py-40 ">
-                            <div style="overflow-x: auto;" >
-                                <table class="table border">
-                                    <thead class="bg-siderbar text-white border font-14 fw-medium">
-                                        <tr>
-                                            <th>S.No</th>
-                                            <th>Transaction Date</th>
-                                            <th>Transaction Time</th>
-                                            <th>Expired Date</th>
-                                            <th>Reference No</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="font-14 fw-medium text-secondary">
-                                        <tr>
-                                            <td>1</td>
-                                            <td>31 DEC, 2024</td>
-                                            <td>19:39:25</td>
-                                            <td>31 DEC, 2024</td>
-                                            <td></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                    <div class="border border-radius-8  ">
+                        <div class=" py-20 px-40 border-bottom table-headding-bg">
+                            <p class="  body-2 fw-medium font-18 text-semibold">Subscription Details </p>
+                        </div>
+                        <div class="bg-white px-40 ">
+                            <div class=" d-flex justify-content-between align-items-center ">
+                            </div>
+                            <div class="py-40 ">
+
+                                <div class="overflow-x-auto border-radius-8">
+                                    <div style="overflow-x: auto;">
+                                        <table class="table border logbook-table">
+                                            <thead class="bg-siderbar text-white border font-14 fw-medium">
+                                                <tr>
+                                                    <th>S.No</th>
+                                                    <th>Transaction Date</th>
+                                                    <th>Transaction Time</th>
+                                                    <th>Expired Date</th>
+                                                    <th>Reference No</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="font-14 fw-medium text-secondary">
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>31 DEC, 2024</td>
+                                                    <td>19:39:25</td>
+                                                    <td>31 DEC, 2024</td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
         `,
         "Race Radar": `
         <section class="dashboard w-100 d-flex flex-column gap-32">
