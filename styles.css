@@ -212,7 +212,7 @@ p {
   padding-bottom: 4px !important;
 }
 
-.py-8 {
+.px-8 {
   padding-left: 8px !important;
   padding-right: 8px !important;
 }
@@ -333,9 +333,9 @@ p {
   gap: 12px;
 }
 
-.gap-16 {
+/* .gap-16 {
   gap: 16px;
-}
+} */
 
 .gap-20 {
   gap: 20px;
@@ -676,6 +676,13 @@ a:hover {
   .h-30 {
     max-height: 80px;
   }
+ 
+}
+@media (min-width: 1324px) {
+  .search-input-width{
+    min-width: 500px;
+    min-height: 53px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -708,9 +715,7 @@ a:hover {
   color: var(--span-text-color);
 
 }
-.search-input-width{
-  min-width: 500px;
-}
+
 
 .check-box{
   width: 20px;

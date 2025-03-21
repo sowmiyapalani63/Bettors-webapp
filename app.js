@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Create an object to store page content for each menu item
     const pageContents = {
         "Race Matrix": `
-            <section class="dashboard w-100 d-flex flex-column gap-32">
+               <section class="dashboard w-100 d-flex flex-column gap-32">
                     <div class=" px-40 ">
                         <div class="py-32">
                             <div class=" d-flex flex-column gap-40">
@@ -136,12 +136,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <p class="font-12 fw-medium text-secondary">Asia/Calcutta</p>
 
                                     </div>
-                                    <div class="d-flex flex-md-row flex-column gap-16 align-items-md-center">
-                                        <div class="d-flex"> <input type="search" placeholder="Find your horse"
-                                                class="border-radius-4 text-secondary p-10 border-color filter-input flex-grow-sm"></input>
-                                        </div>
-                                        <div class="d-flex"> <button
-                                                class="body-4 btn text-white flex-grow-sm">Filters</button></div>
+                                    <div class="d-flex flex-md-row flex-column gap-16 align-items-md-center flex-wrap">
+                                        <input type="search" placeholder="Find your horse"
+                                            class="border-radius-4 text-secondary p-10 border-color  flex-grow-sm search-input-width"></input>
+                                        <button class="body-4 btn text-white flex-grow-sm px-32">Filters</button>
 
                                     </div>
 
@@ -157,24 +155,21 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <div
                                         class="d-flex gap-20 flex-column flex-md-row fw-medium font-14 align-items-md-center text-secondary">
                                         <div class="d-flex gap-4 flex-row align-items-center horse-no">
-                                            <input type="radio" id="horse-no" name="radio-group1"
-                                                value="Number Of Horses" checked>
-                                            <label for="horse-no">Number Of Horses</label>
+                                            <span class="rounded-circle bg-horse px-8 py-8 "> </span>
+                                            <span>Number Of Horses</span>
                                         </div>
                                         <div class="d-flex gap-4 flex-row align-items-center Promo-bookie">
-                                            <input type="radio" id="promo-bookie" name="radio-group"
-                                                value="Number Of Promo Bookies" checked>
-                                            <label for="promo-bookie">Number Of Promo Bookies</label>
+                                            <span class="rounded-circle bg-horse px-8 py-8 bg-mug"> </span>
+
+                                            <span>Number Of Promo Bookies</span>
                                         </div>
                                         <div class="d-flex gap-4 flex-row align-items-center best-mug">
-                                            <input type="radio" id="best-mug" name="radio-group2" value="Best Mug"
-                                                checked>
-                                            <label for="best-mug">Best Mug</label>
+                                            <span class="rounded-circle  px-8 py-8 bg-promo"> </span>
+                                            <span>Best Mug</span>
                                         </div>
                                         <div class="d-flex gap-4 flex-row align-items-center open-race">
-                                            <input type="radio" id="open-race" name="radio-group3" value="Open Race"
-                                                checked>
-                                            <label for="open-race">Open Race</label>
+                                            <span class="rounded-circle bg-race px-8 py-8 "> </span>
+                                            <span>Open Race</span>
                                         </div>
 
                                     </div>
@@ -203,10 +198,11 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
-                                                            
-                                            
+
+
                                                         </div>
                                                         <div class="font-12 fw-medium">
                                                             <p class=" ">
@@ -238,7 +234,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon" class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon" class="cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -271,7 +268,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -304,7 +302,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -337,7 +336,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -370,7 +370,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -403,7 +404,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -436,7 +438,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -482,7 +485,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -514,7 +518,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -549,7 +554,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -581,7 +587,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -613,7 +620,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -645,7 +653,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -677,7 +686,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -709,7 +719,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -754,7 +765,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -787,7 +799,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -820,7 +833,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -854,7 +868,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -869,7 +884,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                     class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
                                                                 <span
                                                                     class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
-                                                                <span 
+                                                                <span
                                                                     class="p-10 bg-promo border-radius-2 text-white race-info-card">M</span>
                                                             </div>
                                                             <div class="primary-text text-center font-12">
@@ -889,7 +904,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -922,7 +938,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -955,7 +972,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -988,7 +1006,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1001,7 +1020,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                             <div class="d-flex flex-row gap-8 font-16">
                                                                 <span
                                                                     class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
-                                                                <span  
+                                                                <span
                                                                     class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
                                                             </div>
                                                             <div class="primary-text text-center font-12">
@@ -1035,7 +1054,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1067,7 +1087,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1101,7 +1122,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1135,7 +1157,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1167,7 +1190,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1199,7 +1223,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1231,7 +1256,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1263,7 +1289,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1308,7 +1335,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1322,7 +1350,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <span
                                                                     class="p-10 bg-horse border-radius-2 text-semibold race-info-card">12</span>
                                                                 <span
-                                                                    class="p-10 bg-mug border-radius-2 text-white">1</span>
+                                                                    class="p-10 bg-mug border-radius-2 text-white race-info-card">1</span>
                                                             </div>
                                                             <div class="primary-text text-center font-12">
                                                                 View Bookies
@@ -1341,7 +1369,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1374,7 +1403,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1407,7 +1437,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1440,7 +1471,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1473,7 +1505,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1506,7 +1539,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1539,7 +1573,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <p class="text-secondary">1300m</p>
                                                             </div>
                                                             <div>
-                                                                <img src="./asssest/image/likeicon.svg" alt="heart" class="heartIcon class="cursor-pointer"  />
+                                                                <img src="./asssest/image/likeicon.svg" alt="heart"
+                                                                    class="heartIcon cursor-pointer" />
                                                             </div>
                                                         </div>
                                                         <div class="font-12 fw-medium">
@@ -1582,19 +1617,19 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="d-flex gap-20 flex-column">
                             <div class="d-flex gap-8">
                                 <span class="body-4"> Race Date :</span>
-                                <p class="body-4">21/10/2024 <span
-                                        class="font-12 span-text-color fw-normal">today</span></p>
+                                <p class="body-4">21/10/2024  <sub class="font-12 text-race fw-medium ">Today</sub></span></p>
                             </div>
                             <div>
                                 <p class="font-12  fw-normal">Asia/Calcutta</p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center gap-16">
-                            <input type="search" placeholder="Search.."
-                                class="border-radius-4 text-secondary p-16 border-color search-input-width flex-grow-md" />
-                            <button class="body-4 btn p-16 px-32 text-white ">Filters</button>
-
-                        </div>
+                               <div class="d-flex flex-md-row flex-column gap-16 align-items-md-center flex-wrap">
+                                             <input type="search" placeholder="Find your horse"
+                                                    class="border-radius-4 text-secondary p-10 border-color  flex-grow-sm search-input-width"></input>
+                                             <button
+                                                    class="body-4 btn text-white flex-grow-sm px-32">Filters</button>
+    
+                                </div>
                     </div>
                     <div class="d-flex flex-column gap-16">
                         <div class="d-flex gap-16 justify-content-end flex-wrap">
@@ -1778,23 +1813,23 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div>
 
                     </div>
-                    <div class="d-flex justify-content-between flex-wrap">
+                   <div class="d-flex justify-content-between flex-wrap">
                         <div class="d-flex gap-20 flex-column">
                             <div class="d-flex gap-8">
                                 <span class="body-4"> Race Date :</span>
-                                <p class="body-4">21/10/2024 <span
-                                        class="font-12 span-text-color fw-normal">today</span></p>
+                                <p class="body-4">21/10/2024  <sub class="font-12 text-race fw-medium ">Today</sub></span></p>
                             </div>
                             <div>
                                 <p class="font-12  fw-normal">Asia/Calcutta</p>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center gap-16">
-                            <input type="search" placeholder="Search.."
-                                class="border-radius-4 text-secondary p-16 border-color search-input-width flex-grow-md" />
-                            <button class="body-4 btn p-16 px-32 text-white ">Filters</button>
-
-                        </div>
+                               <div class="d-flex flex-md-row flex-column gap-16 align-items-md-center flex-wrap">
+                                             <input type="search" placeholder="Find your horse"
+                                                    class="border-radius-4 text-secondary p-10 border-color  flex-grow-sm search-input-width"></input>
+                                             <button
+                                                    class="body-4 btn text-white flex-grow-sm px-32">Filters</button>
+    
+                                </div>
                     </div>
                     <div class="d-flex flex-column gap-16">
                         <div class="d-flex gap-16 justify-content-end flex-wrap">
