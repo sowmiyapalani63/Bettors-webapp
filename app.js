@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 class="image img-fluid h-20" id="prevBtn">
                         </div>
                         <div id="carousel-container"
-                            class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll">
+                            class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll matrix-conatiner">
                             <!-- Your cards go here -->
                             <div class="d-flex flex-column gap-16">
                                 <div
@@ -1606,10 +1606,112 @@ document.addEventListener("DOMContentLoaded", function () {
     </section>
     `,
         "Racing Planner":`
-        <section class="dashboard w-100 d-flex flex-column gap-40">
-                    <div>
-
-                    </div>
+ <section class="dashboard w-100 d-flex flex-column gap-40">
+                    <div class="d-flex flex-row gap-8 font-12">
+                                    <div
+                                        class="w-48 h-30 bg-white d-flex flex-column justify-content-center border border-radius-4">
+                                        <img src="./asssest/image/previousarrow.svg" alt="user"
+                                            class="image img-fluid h-20" id="prevBtn">
+                                    </div>
+                                    <div id="carousel-container"
+                                        class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll matrix-conatiner">
+                                        <!-- Your cards go here -->
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- More cards ... -->
+                                    </div>
+                                    <div
+                                        class="w-48 bg-white d-flex flex-column justify-content-center border border-radius-4 h-30">
+                                        <img src="./asssest/image/nextarrow.svg" alt="user" class="image h-20   "
+                                            id="nextBtn">
+                                    </div>
+                                </div>
                     <div class="d-flex justify-content-between flex-column flex-md-row gap-20">
                         <div class="d-flex gap-20 flex-column">
                             <div class="d-flex gap-8">
@@ -1812,9 +1914,111 @@ document.addEventListener("DOMContentLoaded", function () {
         `,
         "My Race Picks":`
          <section class="dashboard w-100 d-flex flex-column gap-40">
-                    <div>
-
-                    </div>
+                    <div class="d-flex flex-row gap-8 font-12">
+                                    <div
+                                        class="w-48 h-30 bg-white d-flex flex-column justify-content-center border border-radius-4">
+                                        <img src="./asssest/image/previousarrow.svg" alt="user"
+                                            class="image img-fluid h-20" id="prevBtn">
+                                    </div>
+                                    <div id="carousel-container"
+                                        class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll matrix-conatiner">
+                                        <!-- Your cards go here -->
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- More cards ... -->
+                                    </div>
+                                    <div
+                                        class="w-48 bg-white d-flex flex-column justify-content-center border border-radius-4 h-30">
+                                        <img src="./asssest/image/nextarrow.svg" alt="user" class="image h-20   "
+                                            id="nextBtn">
+                                    </div>
+                                </div>
                     <div class="d-flex justify-content-between flex-column flex-md-row gap-20">
                         <div class="d-flex gap-20 flex-column">
                             <div class="d-flex gap-8">
@@ -2026,7 +2230,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                             class="image img-fluid h-20" id="prevBtn">
                                     </div>
                                     <div id="carousel-container"
-                                        class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll">
+                                        class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll matrix-conatiner">
                                         <!-- Your cards go here -->
                                         <div class="d-flex flex-column gap-16">
                                             <div
@@ -3179,7 +3383,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     id="prevBtn">
                             </div>
                             <div id="carousel-container"
-                                class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll">
+                                class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll matrix-conatiner">
 
                                 <!-- Your cards go here -->
                                 <div class="d-flex flex-column gap-16">
@@ -3468,7 +3672,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                 class="image img-fluid h-20" id="prevBtn">
                                         </div>
                                         <div id="carousel-container"
-                                            class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll">
+                                            class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll matrix-conatiner">
                                             <!-- Your cards go here -->
                                             <div class="d-flex flex-column gap-16">
                                                 <div
@@ -3831,7 +4035,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                 class="image img-fluid h-20" id="prevBtn">
                                         </div>
                                         <div id="carousel-container"
-                                            class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll">
+                                            class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll matrix-conatiner">
                                             <!-- Your cards go here -->
                                             <div class="d-flex flex-column gap-16">
                                                 <div
