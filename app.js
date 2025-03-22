@@ -4434,7 +4434,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <tr class="text-center">
                                                                     <td></td>
                                                                     <td colSpan="1"
-                                                                        class="text-center body-2 fw-medium font-18 text-semibold  ">
+                                                                        class="text-center body-2 fw-medium font-14 text-semibold  ">
                                                                         <span>Total</span>
                                                                     </td>
                                                                 </tr>
@@ -4749,7 +4749,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <tr class="text-center">
                                                                     <td></td>
                                                                     <td colSpan="1"
-                                                                        class="text-center body-2 fw-medium font-18 text-semibold  ">
+                                                                        class="text-center body-2 fw-medium font-14 text-semibold  ">
                                                                         <span>Total</span>
                                                                     </td>
                                                                 </tr>
@@ -5066,7 +5066,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 <tr class="text-center">
                                                                     <td></td>
                                                                     <td colSpan="1"
-                                                                        class="text-center body-2 fw-medium font-18 text-semibold  ">
+                                                                        class="text-center body-2 fw-medium font-14 text-semibold  ">
                                                                         <span>Total</span>
                                                                     </td>
                                                                 </tr>
