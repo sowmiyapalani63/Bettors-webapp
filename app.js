@@ -1609,30 +1609,30 @@ document.addEventListener("DOMContentLoaded", function () {
                 </section>
         `,
         "Racing Planner":`
-         <section class="dashboard w-100 d-flex flex-column gap-40">
+        <section class="dashboard w-100 d-flex flex-column gap-40">
                     <div>
 
                     </div>
-                    <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex justify-content-between flex-column flex-md-row gap-20">
                         <div class="d-flex gap-20 flex-column">
                             <div class="d-flex gap-8">
                                 <span class="body-4"> Race Date :</span>
-                                <p class="body-4">21/10/2024  <sub class="font-12 text-race fw-medium ">Today</sub></span></p>
+                                <p class="body-4">21/10/2024 <sub
+                                        class="font-12 text-race fw-medium ">Today</sub></span></p>
                             </div>
                             <div>
                                 <p class="font-12  fw-normal">Asia/Calcutta</p>
                             </div>
                         </div>
-                               <div class="d-flex flex-md-row flex-column gap-16 align-items-md-center flex-wrap">
-                                             <input type="search" placeholder="Find your horse"
-                                                    class="border-radius-4 text-secondary p-10 border-color  flex-grow-sm search-input-width"></input>
-                                             <button
-                                                    class="body-4 btn text-white flex-grow-sm px-32">Filters</button>
-    
-                                </div>
+                        <div class="d-flex flex-md-row flex-column gap-16 align-items-md-center flex-wrap">
+                            <input type="search" placeholder="Find your horse"
+                                class="border-radius-4 text-secondary p-10 border-color  flex-grow-sm search-input-width"></input>
+                            <button class="body-4 btn text-white flex-grow-sm px-32">Filters</button>
+
+                        </div>
                     </div>
                     <div class="d-flex flex-column gap-16">
-                        <div class="d-flex gap-16 justify-content-end flex-wrap">
+                        <div class="d-flex gap-16 justify-content-start justify-content-md-end flex-wrap">
                             <div class="d-flex align-items-center gap-8">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="check-box">
                                 <label for="vehicle1 fw-normal font-14"> Show My Favourites Only</label>
@@ -1653,7 +1653,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                             <button class="accordion-button d-flex justify-content-between"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                 aria-expanded="true" aria-controls="collapseOne">
-                                                <div class="d-flex justify-content-between w-100 align-items-center pe-3">
+                                                <div
+                                                    class="d-flex justify-content-between w-100 align-items-center pe-3">
                                                     <div class="d-flex gap-24 flex-wrap ">
                                                         <p class="font-18 span-text-color fw-medium">Riccarton <span
                                                                 class="body-4 text-dark fw-normal">1400</span></p>
@@ -1680,19 +1681,21 @@ document.addEventListener("DOMContentLoaded", function () {
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body d-flex flex-column gap-8 py-32">
                                                 <!-- Content you provided -->
-                                                <div class="d-flex align-items-center gap-8 justify-content-end">
+                                                <div
+                                                    class="d-flex align-items-center gap-8  justify-content-start justify-content-md-end">
                                                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"
                                                         class="check-box">
-                                                    <label for="vehicle1" class="fw-normal font-14">Add race to favourites
+                                                    <label for="vehicle1" class="fw-normal font-14">Add race to
+                                                        favourites
                                                         Only</label>
                                                 </div>
-                                                <div class="border-radius-8 border d-flex flex-column gap-20 ">
+                                                <div class="border-radius-8 border d-flex flex-column gap-20 flex-wrap">
                                                     <div>
                                                         <div
                                                             class="py-32 px-24 border-bottom table-headding-bg d-flex justify-content-between flex-wrap">
                                                             <p class="body-2 fw-medium font-18">1. Drake’s Drum </p>
-                                                            <div class="d-flex gap-24">
-                                                                <div class="d-flex flex-column gap-8">
+                                                            <div class="d-flex gap-24 flex-wrap">
+                                                                <div class="d-flex flex-column gap-8 ">
                                                                     <p class="body-4 text-dark">Win Fixed</p>
                                                                     <p
                                                                         class="bg-white p-16 border-radius-8 width-height">
@@ -1717,8 +1720,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                                             <div class="d-flex flex-column gap-32 ">
                                                                 <div
                                                                     class="d-flex form-grid justify-content-between direction w-100 ">
-                                                                    <div class="w-50 d-flex flex-column gap-8">
-                                                                        <label class="text-semibold body-4 flex-nowrap">Already have
+                                                                    <div class="w-100 w-md-50 d-flex flex-column gap-8">
+                                                                        <label
+                                                                            class="text-semibold body-4 flex-nowrap">Already
+                                                                            have
                                                                             Account?</label>
                                                                         <select class="form-select w-100">
                                                                             <option selected>Select option</option>
@@ -1726,7 +1731,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                             <option>No</option>
                                                                         </select>
                                                                     </div>
-                                                                    <div class="w-50 d-flex flex-column gap-8">
+                                                                    <div class="w-100 w-md-50 d-flex flex-column gap-8">
                                                                         <label class="text-semibold body-4">Select
                                                                             Bookies</label>
                                                                         <select class="form-select w-100">
@@ -1813,26 +1818,26 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div>
 
                     </div>
-                   <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex justify-content-between flex-column flex-md-row gap-20">
                         <div class="d-flex gap-20 flex-column">
                             <div class="d-flex gap-8">
                                 <span class="body-4"> Race Date :</span>
-                                <p class="body-4">21/10/2024  <sub class="font-12 text-race fw-medium ">Today</sub></span></p>
+                                <p class="body-4">21/10/2024 <sub
+                                        class="font-12 text-race fw-medium ">Today</sub></span></p>
                             </div>
                             <div>
                                 <p class="font-12  fw-normal">Asia/Calcutta</p>
                             </div>
                         </div>
-                               <div class="d-flex flex-md-row flex-column gap-16 align-items-md-center flex-wrap">
-                                             <input type="search" placeholder="Find your horse"
-                                                    class="border-radius-4 text-secondary p-10 border-color  flex-grow-sm search-input-width"></input>
-                                             <button
-                                                    class="body-4 btn text-white flex-grow-sm px-32">Filters</button>
-    
-                                </div>
+                        <div class="d-flex flex-md-row flex-column gap-16 align-items-md-center flex-wrap">
+                            <input type="search" placeholder="Find your horse"
+                                class="border-radius-4 text-secondary p-10 border-color  flex-grow-sm search-input-width"></input>
+                            <button class="body-4 btn text-white flex-grow-sm px-32">Filters</button>
+
+                        </div>
                     </div>
                     <div class="d-flex flex-column gap-16">
-                        <div class="d-flex gap-16 justify-content-end flex-wrap">
+                        <div class="d-flex gap-16 justify-content-start justify-content-md-end flex-wrap">
                             <div class="d-flex align-items-center gap-8">
                                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="check-box">
                                 <label for="vehicle1 fw-normal font-14"> Show My Favourites Only</label>
@@ -1853,7 +1858,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                             <button class="accordion-button d-flex justify-content-between"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                 aria-expanded="true" aria-controls="collapseOne">
-                                                <div class="d-flex justify-content-between w-100 align-items-center pe-3">
+                                                <div
+                                                    class="d-flex justify-content-between w-100 align-items-center pe-3">
                                                     <div class="d-flex gap-24 flex-wrap ">
                                                         <p class="font-18 span-text-color fw-medium">Riccarton <span
                                                                 class="body-4 text-dark fw-normal">1400</span></p>
@@ -1880,19 +1886,21 @@ document.addEventListener("DOMContentLoaded", function () {
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body d-flex flex-column gap-8 py-32">
                                                 <!-- Content you provided -->
-                                                <div class="d-flex align-items-center gap-8 justify-content-end">
+                                                <div
+                                                    class="d-flex align-items-center gap-8  justify-content-start justify-content-md-end">
                                                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"
                                                         class="check-box">
-                                                    <label for="vehicle1" class="fw-normal font-14">Add race to favourites
+                                                    <label for="vehicle1" class="fw-normal font-14">Add race to
+                                                        favourites
                                                         Only</label>
                                                 </div>
-                                                <div class="border-radius-8 border d-flex flex-column gap-20 ">
+                                                <div class="border-radius-8 border d-flex flex-column gap-20 flex-wrap">
                                                     <div>
                                                         <div
                                                             class="py-32 px-24 border-bottom table-headding-bg d-flex justify-content-between flex-wrap">
                                                             <p class="body-2 fw-medium font-18">1. Drake’s Drum </p>
-                                                            <div class="d-flex gap-24">
-                                                                <div class="d-flex flex-column gap-8">
+                                                            <div class="d-flex gap-24 flex-wrap">
+                                                                <div class="d-flex flex-column gap-8 ">
                                                                     <p class="body-4 text-dark">Win Fixed</p>
                                                                     <p
                                                                         class="bg-white p-16 border-radius-8 width-height">
@@ -1917,8 +1925,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                                             <div class="d-flex flex-column gap-32 ">
                                                                 <div
                                                                     class="d-flex form-grid justify-content-between direction w-100 ">
-                                                                    <div class="w-50 d-flex flex-column gap-8">
-                                                                        <label class="text-semibold body-4 flex-nowrap">Already have
+                                                                    <div class="w-100 w-md-50 d-flex flex-column gap-8">
+                                                                        <label
+                                                                            class="text-semibold body-4 flex-nowrap">Already
+                                                                            have
                                                                             Account?</label>
                                                                         <select class="form-select w-100">
                                                                             <option selected>Select option</option>
@@ -1926,7 +1936,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                             <option>No</option>
                                                                         </select>
                                                                     </div>
-                                                                    <div class="w-50 d-flex flex-column gap-8">
+                                                                    <div class="w-100 w-md-50 d-flex flex-column gap-8">
                                                                         <label class="text-semibold body-4">Select
                                                                             Bookies</label>
                                                                         <select class="form-select w-100">
@@ -2006,7 +2016,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
 
                 </section>
-
         `,
         "Promo Mug Ratio": `
       <section class="dashboard w-100 d-flex flex-column gap-32">
