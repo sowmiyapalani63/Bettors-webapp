@@ -5516,50 +5516,50 @@ document.addEventListener("DOMContentLoaded", function () {
         </section>
         `,
         "User Configuration": `
-           <section class="dashboard w-100 d-flex flex-column gap-32 border border-radius-8">
-                <div class="border rounded">
-                    <div class="py-3 px-4 border-bottom table-heading-bg">
-                        <p class="body-2 fw-medium font-18 text-semibold">My Settings</p>
+            <section class="dashboard w-100 d-flex flex-column gap-32 border border-radius-8">
+                    <div class="border rounded">
+                        <div class=" py-20 px-40 border-bottom table-headding-bg ">
+                            <p class="body-2 fw-medium font-18 text-semibold">My Settings</p>
+                        </div>
+                        <div class="bg-white px-40">
+                            <form class="py-40 d-flex flex-column gap-24">
+                                <div class="d-flex flex-row gap-24 flex-wrap">
+                                    <div class="d-flex flex-column flex-fill gap-8">
+                                        <label for="bookieState" class="form-label mb-0">Preferred Bookie State</label>
+                                        <input type="number" class="form-control" id="bookieState" value="0" min="0">
+                                    </div>
+                                    <div class="d-flex flex-column flex-fill gap-8">
+                                        <label for="betType" class="form-label mb-0">Default Bet Type</label>
+                                        <select class="form-select" id="betType">
+                                            <option selected>Select option</option>
+                                            <option value="1">Single</option>
+                                            <option value="2">Multiple</option>
+                                            <option value="3">System</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-wrap gap-24">
+                                    <div class="d-flex flex-column flex-fill gap-8">
+                                        <label for="bankroll" class="form-label mb-0">Bankroll</label>
+                                        <input type="number" class="form-control" id="bankroll" value="0" min="0">
+                                    </div>
+                                    <div class="d-flex flex-column flex-fill gap-8">
+                                        <label for="bettingPreference" class="form-label mb-0">Betting Preference</label>
+                                        <select class="form-select" id="bettingPreference">
+                                            <option selected>Select option</option>
+                                            <option value="1">Favorites</option>
+                                            <option value="2">Underdogs</option>
+                                            <option value="3">Value bets</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <button type="submit" class="btn text-white font-14 fw-medium  border-radius-4">Save</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <div class="bg-white">
-                        <form class="py-4 px-4 d-flex flex-column gap-24">
-                            <div class="d-flex flex-row gap-24 flex-wrap">
-                                <div class="d-flex flex-column flex-fill gap-8">
-                                    <label for="bookieState" class="form-label mb-0">Preferred Bookie State</label>
-                                    <input type="number" class="form-control" id="bookieState" value="0" min="0">
-                                </div>
-                                <div class="d-flex flex-column flex-fill gap-8">
-                                    <label for="betType" class="form-label mb-0">Default Bet Type</label>
-                                    <select class="form-select" id="betType">
-                                        <option selected>Select option</option>
-                                        <option value="1">Single</option>
-                                        <option value="2">Multiple</option>
-                                        <option value="3">System</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-wrap gap-24">
-                                <div class="d-flex flex-column flex-fill gap-8">
-                                    <label for="bankroll" class="form-label mb-0">Bankroll</label>
-                                    <input type="number" class="form-control" id="bankroll" value="0" min="0">
-                                </div>
-                                <div class="d-flex flex-column flex-fill gap-8">
-                                    <label for="bettingPreference" class="form-label mb-0">Betting Preference</label>
-                                    <select class="form-select" id="bettingPreference">
-                                        <option selected>Select option</option>
-                                        <option value="1">Favorites</option>
-                                        <option value="2">Underdogs</option>
-                                        <option value="3">Value bets</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="d-flex">
-                                <button type="submit" class="btn btn-primary px-4">Save</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section>
+                </section>
         `,
         // Add more page contents for other menu items as needed
     };
