@@ -2016,7 +2016,7 @@ document.addEventListener("DOMContentLoaded", function () {
         `,
         "Promo Mug Ratio": `
       <section class="dashboard w-100 d-flex flex-column gap-32">
-                    <div class=" px-40 ">
+                    <div class="  ">
                         <div class="py-32">
                             <div class=" d-flex flex-column gap-40">
                                 <div class="d-flex flex-row gap-8 font-12">
