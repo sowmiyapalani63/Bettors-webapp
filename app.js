@@ -3362,6 +3362,1108 @@ document.addEventListener("DOMContentLoaded", function () {
                                     </div>
                                 </div>
 
+                </section> <section class="dashboard w-100 d-flex flex-column gap-32">
+                    <div class="  ">
+                        <div class="py-32">
+                            <div class=" d-flex flex-column gap-40">
+                                <div class="d-flex flex-row gap-8 font-12">
+                                    <div
+                                        class="w-48 h-30 bg-white d-flex flex-column justify-content-center border border-radius-4">
+                                        <img src="./asssest/image/previousarrow.svg" alt="user"
+                                            class="image img-fluid h-20" id="prevBtn">
+                                    </div>
+                                    <div id="carousel-container"
+                                        class="d-flex flex-row gap-16 font-12 fw-medium carousal-container overflow-x-scroll matrix-conatiner">
+                                        <!-- Your cards go here -->
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column gap-16">
+                                            <div
+                                                class="d-flex flex-column p-16 gap-16 border border-radius-4 card-carousel-bg">
+                                                <div>
+                                                    21-Oct-2024
+                                                </div>
+                                                <div>
+                                                    Monday
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- More cards ... -->
+                                    </div>
+                                    <div
+                                        class="w-48 bg-white d-flex flex-column justify-content-center border border-radius-4 h-30">
+                                        <img src="./asssest/image/nextarrow.svg" alt="user" class="image h-20   "
+                                            id="nextBtn">
+                                    </div>
+                                </div>
+                                <div
+                                    class="py-20 d-flex flex-column flex-md-row flex-wrap justify-content-between gap-20">
+                                    <div class="d-flex gap-8 flex-row align-items-center">
+                                        <input type="checkbox" class="border-radius-4 text-secondary border-color " />
+                                        <label for="">I want
+                                            to track promo to mug ratio today on my own</label>
+                                    </div>
+
+                                    <div class="d-flex gap-20 flex-column flex-md-row fw-medium font-14">
+                                        <button class="body-4 btn text-white ">Save</button>
+                                        <button
+                                            class="body-4 btn bg-white border-radius-4 border-color-primary ">Add</button>
+                                    </div>
+                                </div>
+                                <div class="border border-radius-8 ">
+                                    <div
+                                        class=" py-20 px-40 border-bottom table-headding-bg d-flex flex-md-row flex-column justify-content-between gap-40">
+                                        <div class="d-flex flex-md-row flex-column align-items-md-center gap-16">
+                                            <p class="body-2 fw-medium font-18 text-semibold">BetLocal </p>
+
+                                            <div class="border border-radius-4 bg-opacity px-4 py-8"><span>Promo 2 : Mug
+                                                    1</span></div>
+                                        </div>
+
+                                        <div class="d-flex flex-row gap-40 text-secondary body-2 fw-medium font-18">
+                                            <p class=" ">No promo bet placed</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="bg-white px-40">
+                                        <div class="py-32">
+                                            <div
+                                                class="d-flex flex-row  fw-medium font-16 radio-wrapper overflow-x-scroll">
+                                                <div
+                                                    class="d-flex flex-column justify-content-between py-48  border-r w-100px">
+                                                    <p>promo</p>
+                                                    <p>Mug </p>
+                                                </div>
+                                                <div class="d-flex flex-column justify-content-between  px-40 gap-56">
+                                                    <div class="d-flex flex-row  gap-16">
+
+                                                        <div class="redio-container d-flex flex-column gap-16 ">
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+
+                                                            <input type="radio" name="bet1">
+
+
+
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="d-flex flex-row gap-16">
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border border-radius-8 ">
+                                    <div
+                                        class=" py-20 px-40 border-bottom table-headding-bg d-flex flex-md-row flex-column justify-content-between gap-40">
+                                        <div class="d-flex flex-md-row flex-column align-items-md-center gap-16">
+                                            <p class="body-2 fw-medium font-18 text-semibold">BetLocal </p>
+
+                                            <div class="border border-radius-4 bg-opacity px-4 py-8"><span>Promo 2 : Mug
+                                                    1</span></div>
+                                        </div>
+
+                                        <div class="d-flex flex-row gap-40 text-secondary body-2 fw-medium font-18">
+                                            <p class=" ">No promo bet placed</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="bg-white px-40">
+                                        <div class="py-32">
+                                            <div
+                                                class="d-flex flex-row  border-l fw-medium font-16 radio-wrapper overflow-x-scroll">
+                                                <div
+                                                    class="d-flex flex-column justify-content-between py-48 border-r w-100px">
+                                                    <p>promo</p>
+                                                    <p>Mug </p>
+                                                </div>
+                                                <div class="d-flex flex-column justify-content-between  px-40 gap-56">
+                                                    <div class="d-flex flex-row  gap-16">
+
+                                                        <div class="redio-container d-flex flex-column gap-16 ">
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+
+                                                            <input type="radio" name="bet1">
+
+
+
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="d-flex flex-row gap-16">
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border border-radius-8 ">
+                                    <div
+                                        class=" py-20 px-40 border-bottom table-headding-bg d-flex flex-md-row flex-column justify-content-between gap-40">
+                                        <div class="d-flex flex-md-row flex-column align-items-md-center gap-16">
+                                            <p class="body-2 fw-medium font-18 text-semibold">BetLocal </p>
+
+                                            <div class="border border-radius-4 bg-opacity px-4 py-8"><span>Promo 2 : Mug
+                                                    1</span></div>
+                                        </div>
+
+                                        <div class="d-flex flex-row gap-40 text-secondary body-2 fw-medium font-18">
+                                            <p class=" ">No promo bet placed</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="bg-white px-40">
+                                        <div class="py-32">
+                                            <div
+                                                class="d-flex flex-row  border-l fw-medium font-16 radio-wrapper overflow-x-scroll">
+                                                <div
+                                                    class="d-flex flex-column justify-content-between py-48 border-r w-100px">
+                                                    <p>promo</p>
+                                                    <p>Mug </p>
+                                                </div>
+                                                <div class="d-flex flex-column justify-content-between  px-40 gap-56">
+                                                    <div class="d-flex flex-row  gap-16">
+
+                                                        <div class="redio-container d-flex flex-column gap-16 ">
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+
+                                                            <input type="radio" name="bet1">
+
+
+
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+                                                                <p class="font-12 fw-normal text-secondary">
+                                                                    Flemington
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="d-flex flex-row gap-16">
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                            <label class="radio-btn">
+                                                                <input type="radio" name="bet1">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                            <div class="rotate-45 ">
+                                                                <p class="primary-text">
+                                                                    R2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                 </section>
         `,
         "P / L Analytics":`

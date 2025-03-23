@@ -442,12 +442,12 @@ p {
   color: white;
 }
 table thead th {
-  min-height: 61px !important;
+ 
   font-weight: 500 !important;
 }
 
 table tbody td {
-  min-height: 51px !important;
+  
   font-weight: 400 !important;
 }
 
@@ -507,6 +507,7 @@ table {
 .redio-container {
   min-width: 82px;
   min-height: 122px;
+  align-items: start;
 }
 
 .horse-no input[type="radio"] {
