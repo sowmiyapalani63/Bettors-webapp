@@ -1760,7 +1760,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                         <p class="font-18 span-text-color fw-medium">R1 <span
                                                                 class="body-4 text-dark fw-normal">04 : 42</span></p>
                                                     </div>
-                                                    <div class="p">
+                                                    <div class="p primary-text">
 
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                             fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">

@@ -1,8 +1,8 @@
 :root {
   --main-bg-color: #F1F1F1;
   --main-text-color: #370061;
-  --run-color:#FFF1DA;
-  --run-text-color:#E99000;
+  --run-color: #FFF1DA;
+  --run-text-color: #E99000;
   --radio-color1: #D2A5F3;
   --radio-color2: #008000;
   --radio-color3: #7200CB;
@@ -17,8 +17,8 @@
   --table-sub-name: #8E8E93;
   --table-name: #545454;
   --border-color: #D1D1D1;
-  --text-danger:#E52424;
-  --span-text-color:#7200CB;
+  --text-danger: #E52424;
+  --span-text-color: #7200CB;
 
 }
 
@@ -58,7 +58,7 @@ p {
 }
 
 .text-secondary {
-  color: var(--third-text-color);
+  color: var(--third-text-color) !important;
 }
 
 .text-ternary {
@@ -70,7 +70,7 @@ p {
 }
 
 .primary-text {
-  color: var(--main-text-color);
+  color: var(--main-text-color) !important;
 }
 
 .text-brandcolor {
@@ -84,12 +84,15 @@ p {
 .primary-bg {
   background-color: var(--main-bg-color);
 }
+
 .bg-run {
   background-color: var(--run-color);
 }
-.text-run{
+
+.text-run {
   color: var(--run-text-color);
 }
+
 .bg-grey {
   background-color: var(--grey-secondary);
 }
@@ -109,9 +112,11 @@ p {
 .bg-race {
   background-color: var(--radio-color4);
 }
+
 .text-race {
   color: var(--radio-color3);
 }
+
 .secondary-bg {
   background-color: var(--second-bg-color);
 }
@@ -155,7 +160,7 @@ p {
 
 .font-16 {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 100%;
 }
 
 .font-18 {
@@ -248,10 +253,12 @@ p {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .px-24 {
   padding-right: 24px;
   padding-left: 24px;
 }
+
 .px-18 {
   padding-left: 18px;
   padding-right: 18px;
@@ -275,11 +282,12 @@ p {
   padding-left: 40px !important;
   padding-right: 40px !important;
 }
-.pb-40{
+
+.pb-40 {
   padding-bottom: 40px;
 }
 
-.pb-32{
+.pb-32 {
   padding-bottom: 32px;
 }
 
@@ -287,10 +295,12 @@ p {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .py-48 {
   padding-top: 48px;
   padding-bottom: 48px;
 }
+
 .border-b {
   border-bottom: 1px solid var(--border-color);
 }
@@ -319,16 +329,20 @@ p {
   border-radius: 4px !important;
   overflow: hidden;
 }
+
 .border-4 {
   border-radius: 4px !important;
   overflow: hidden;
 }
-.overflow-x-scroll{
-  overflow-x:scroll;
+
+.overflow-x-scroll {
+  overflow-x: scroll;
 }
+
 .gap-10 {
   gap: 10px;
 }
+
 .gap-12 {
   gap: 12px;
 }
@@ -369,8 +383,8 @@ p {
   gap: 40px;
 }
 
-.gap-16{
-  gap:16px !important ;
+.gap-16 {
+  gap: 16px !important;
 }
 
 
@@ -441,14 +455,16 @@ p {
 .list-group-item-action:focus {
   color: white;
 }
+
 table thead th {
  
   font-weight: 500 !important;
 }
 
 table tbody td {
-  
+  min-height: 51px !important;
   font-weight: 400 !important;
+  padding: 16px !important;
 }
 
 .list-group-item-action:hover {
@@ -562,6 +578,7 @@ a:hover {
 
 .logbook-table th {
   min-width: 178px;
+  padding: 16px;
 }
 
 #carousel-container {
@@ -627,7 +644,8 @@ a:hover {
   .navbar-nav .dropdown-menu {
     position: absolute !important;
   }
-  .direction{
+
+  .direction {
     flex-direction: column;
   }
 
@@ -667,12 +685,15 @@ a:hover {
     font-size: 14px;
   }
 }
+
 .form-grid .form-select {
   padding: .375rem 2.25rem .375rem .75rem;
 }
-input:checked + .slider {
+
+input:checked+.slider {
   background-color: var(--main-text-color) !important;
 }
+
 @media (max-width: 1024px) {
   .form-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -691,13 +712,15 @@ input:checked + .slider {
   .h-30 {
     max-height: 80px;
   }
+
   .form-grid .form-select {
     padding: 0.85rem 0.76rem;
   }
- 
+
 }
+
 @media (min-width: 1324px) {
-  .search-input-width{
+  .search-input-width {
     min-width: 500px;
     min-height: 53px;
   }
@@ -725,21 +748,23 @@ input:checked + .slider {
   width: 100%;
   height: 100%;
 }
-.w-100px{
+
+.w-100px {
   min-width: 100px;
 }
 
-.span-text-color{
+.span-text-color {
   color: var(--span-text-color);
 
 }
 
 
-.check-box{
+.check-box {
   width: 20px;
   height: 20px;
 }
-.width-height{
+
+.width-height {
   width: 93px;
   height: 53px;
 }
@@ -751,7 +776,7 @@ input:checked + .slider {
   height: 34px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -781,15 +806,15 @@ input:checked + .slider {
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #2196F3;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -809,35 +834,113 @@ input:checked + .slider:before {
   z-index: 3;
   border-color: #86b7fe;
   outline: 0;
-   box-shadow:none; 
+  box-shadow: none;
 }
 
 .accordion-button:not(.collapsed) {
-  color:black;
+  color: black;
   background-color: white;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
 }
+
 .accordion-item {
   border: none;
 }
-.accordion-body{
-  padding:0px !important;
+
+.accordion-body {
+  padding: 0px !important;
 }
-.matrix-heading{
+
+.matrix-heading {
   min-width: 160px;
 }
-.matrix-wrapper{
+
+.matrix-wrapper {
   min-width: 184px;
 }
+
 .matrix-conatiner::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .matrix-conatiner {
-  -ms-overflow-style: none;  
-  scrollbar-width: none;  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
-.race-info-card{
+
+.race-info-card {
   max-height: 32px;
 }
+
+.form-control:focus {
+  border: 1px solid #D1D1D1;
+  box-shadow: none !important;
+}
+
+.form-select:focus {
+  border: 1px solid #D1D1D1;
+  box-shadow: none !important;
+}
+
+.form-select:hover{
+  background-color: white !important;
+}
+.search-input-width:focus {
+  outline: none; 
+}
+.btn:focus{outline: none !important;
+  box-shadow:none !important;
+
+}
+
+.filter-input:focus {
+  outline: none; 
+}
+
+
+
+.page-item:first-child .page-link {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.page-link:hover {
+    color: inherit;
+    background: inherit;
+}
+.page-link:hover{
+  box-shadow:none !important;
+}
+
+input[type="date"]:focus {
+  outline: none; 
+}
+
+select option:hover {
+  background-color: none !important;
+}
+
+select:focus {
+  outline: none; 
+  box-shadow: none; 
+}
+
+.table>:not(caption)>*>* {
+  padding: 16px !important;
+}
+
+#betType {
+  background-color: transparent !important; 
+  border: none;
+  padding: 0; 
+}
+
+#betType option {
+  background-color: transparent !important; 
+}
+
+#betType:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
