@@ -1034,7 +1034,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                                 <div
-                                    class="d-flex flex-row  fw-medium font-16 overflow-x-scroll ">
+                                    class="d-flex flex-row  fw-medium font-16  ">
                                     <div
                                         class="d-flex flex-column bg-grey p-16 border-radius-left-corner matrix-heading">
                                         <p class="font-16 fw-medium text-semibold">IPSWICH</p>
