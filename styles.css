@@ -589,8 +589,8 @@ select:focus {
 
 #betType {
   background-color: transparent !important;
-  border: none;
-  padding: 0;
+  /* border: none;
+  padding: 0; */
 }
 
 #betType option {
