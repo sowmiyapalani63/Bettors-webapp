@@ -2369,7 +2369,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                 <div class="d-flex flex-column justify-content-between  px-40 gap-56">
                                                     <div class="d-flex flex-row  gap-16">
 
-                                                        <div class="redio-container d-flex flex-column gap-16 ">
+                                                        <div class="radio-container d-flex flex-column gap-16 ">
                                                             <div class="rotate-45 ">
                                                                 <p class="primary-text">
                                                                     R2
@@ -2384,7 +2384,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2398,7 +2398,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2412,7 +2412,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2426,7 +2426,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2440,7 +2440,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2455,7 +2455,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                             </div>
                                                         </div>
 
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2469,7 +2469,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2483,7 +2483,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2497,7 +2497,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2511,7 +2511,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2528,7 +2528,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     </div>
 
                                                     <div class="d-flex flex-row gap-16">
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2540,7 +2540,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2552,7 +2552,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2564,7 +2564,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2576,7 +2576,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2588,7 +2588,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2600,7 +2600,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2612,7 +2612,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2624,7 +2624,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2636,7 +2636,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2648,7 +2648,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2695,7 +2695,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                 <div class="d-flex flex-column justify-content-between  px-40 gap-56">
                                                     <div class="d-flex flex-row  gap-16">
 
-                                                        <div class="redio-container d-flex flex-column gap-16 ">
+                                                        <div class="radio-container d-flex flex-column gap-16 ">
                                                             <div class="rotate-45 ">
                                                                 <p class="primary-text">
                                                                     R2
@@ -2710,7 +2710,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2724,7 +2724,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2738,7 +2738,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2752,7 +2752,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2766,7 +2766,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2781,7 +2781,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                             </div>
                                                         </div>
 
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2795,7 +2795,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2809,7 +2809,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2823,7 +2823,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2837,7 +2837,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2854,7 +2854,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     </div>
 
                                                     <div class="d-flex flex-row gap-16">
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2866,7 +2866,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2878,7 +2878,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2890,7 +2890,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2902,7 +2902,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2914,7 +2914,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2926,7 +2926,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2938,7 +2938,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2950,7 +2950,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2962,7 +2962,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -2974,7 +2974,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3021,7 +3021,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                 <div class="d-flex flex-column justify-content-between  px-40 gap-56">
                                                     <div class="d-flex flex-row  gap-16">
 
-                                                        <div class="redio-container d-flex flex-column gap-16 ">
+                                                        <div class="radio-container d-flex flex-column gap-16 ">
                                                             <div class="rotate-45 ">
                                                                 <p class="primary-text">
                                                                     R2
@@ -3036,7 +3036,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3050,7 +3050,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3064,7 +3064,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3078,7 +3078,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3092,7 +3092,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3107,7 +3107,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                             </div>
                                                         </div>
 
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3121,7 +3121,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3135,7 +3135,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3149,7 +3149,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3163,7 +3163,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3180,7 +3180,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     </div>
 
                                                     <div class="d-flex flex-row gap-16">
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3192,7 +3192,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3204,7 +3204,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3216,7 +3216,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3228,7 +3228,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3240,7 +3240,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3252,7 +3252,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3264,7 +3264,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3276,7 +3276,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3288,7 +3288,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
@@ -3300,7 +3300,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                                             </div>
                                                         </div>
-                                                        <div class="redio-container d-flex flex-column-reverse gap-16 ">
+                                                        <div class="radio-container d-flex flex-column-reverse gap-16 ">
                                                             <label class="radio-btn">
                                                                 <input type="radio" name="bet1">
                                                                 <span class="checkmark"></span>
